@@ -13,7 +13,7 @@ title: "TypeRig"
 
 ## Installation
 
-Download the `install.vfpy` TypeRig installer, then open the downloaded file in the FontLab app.
+Click the button below to download the TypeRig installer, then open the downloaded `install.vfpy` file in the FontLab app.
 
 [Download TypeRig installer](https://cdn.jsdelivr.net/gh/kateliev/TypeRig/install.vfpy){: .btn .btn-purple target="_blank" } [Documentation](https://kateliev.github.io/TypeRig/){: .btn target="_blank" }
 

@@ -5,9 +5,7 @@ title: "TypeRig"
 
 # TypeRig
 
-<a data-fancybox href="https://www.youtube.com/watch?v=oM_89KA3Fnc&amp;autoplay=0&amp;rel=0&amp;controls=1&amp;showinfo=0">
-<iframe src="https://www.youtube.com/embed/oM_89KA3Fnc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" width="1920" height="1080" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
-</a>
+<a data-fancybox href="https://www.youtube.com/watch?v=oM_89KA3Fnc&amp;autoplay=0&amp;rel=0&amp;controls=1&amp;showinfo=0"></a>
 
 <div class="video-container"><iframe src="https://www.youtube.com/embed/oM_89KA3Fnc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" width="1920" height="1080" allowfullscreen uk-responsive uk-video="automute: true"></iframe></div>
 

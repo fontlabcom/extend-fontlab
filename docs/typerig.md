@@ -1,19 +1,20 @@
 ---
 layout: default
 title: "TypeRig"
+nav_order: 1
 ---
 
 # TypeRig
 
 <div uk-slider>
-    <ul class="uk-slider-items uk-child-width-1-1@">
-        <li>
-            <img src="https://extend.fontlab.com/images/typerig/typerig-panel.png" width="" height="" alt="">
-        </li>
-        <li>
-            <img src="https://extend.fontlab.com/images/typerig/typerig-match-contours.png" width="" height="" alt="">
-        </li>
-    </ul>
+<ul class="uk-slider-items uk-child-width-1-1@">
+<li>
+<img src="/images/typerig/typerig-panel.png" width="" height="" alt="">
+</li>
+<li>
+<img src="/images/typerig/typerig-match-contours.png" width="" height="" alt="">
+</li>
+</ul>
 </div>
 
 **TypeRig** is a mighty collection of tools and scripts that extend the FontLab font editor. TypeRig is developed by Vassil Kateliev.

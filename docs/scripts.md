@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Scripts for FontLab"
+title: "Scripts"
 ---
 
 # Scripts for FontLab 7

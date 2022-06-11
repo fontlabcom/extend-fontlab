@@ -79,3 +79,8 @@ div.texteditor {
 .main-content h1:first-child {
     margin-top: 2rem;
 }
+
+.uk-link-toggle:hover .uk-link, .uk-link:hover, a:hover {
+    text-decoration: none;
+    color: unset;
+}

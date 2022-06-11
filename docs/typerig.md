@@ -62,5 +62,5 @@ The documentation is usually a bit behind the current functionality. [Read more.
 
 ## For font developers
 
-- TypeRig also comes with a `typerig` Python library that provides a "Pythonic" interface to the FontLab Python API.
+- TypeRig also comes with a [`typerig`](https://fontlabcom.github.io/fontlab-python-docs/) Python library that provides a “Pythonic” interface to the FontLab Python API.
 - [TypeRig on Github](https://github.com/kateliev/TypeRig)

@@ -3,7 +3,7 @@ email: support@domain.com
 author: Fontlab Ltd.
 description: Extensions, plugins, scripts, templates for the FontLab professional font editor.
 baseurl: "/"
-url: "http://extend.fontlab.com"
+url: "https://extend.fontlab.com"
 logo: https://res.cloudinary.com/fontlab/image/fetch/f_auto,w_48,c_scale/https://www.fontlab.com/img/icon-fontlab-7.png
 #theme: "just-the-docs"
 remote_theme: pmarsceill/just-the-docs

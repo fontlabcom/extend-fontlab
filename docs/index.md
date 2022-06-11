@@ -20,8 +20,19 @@ Extensions, plugins, scripts, templates for the FontLab professional font editor
 - [Documentation](https://kateliev.github.io/TypeRig/)
 - [Homepage](https://github.com/kateliev/TypeRig)
 
-## Other resources
+## Python scripts
 
-- [FontLab scripts by Adam Twardoch](https://github.com/twardoch/twardoch-fontlab-scripts)
+### Using the native Python API
+
+- [By Adam Twardoch](https://github.com/twardoch/twardoch-fontlab-scripts)
+- [By Adam Jagosz](https://github.com/hyvyys/Tektur/blob/main/sources/FontLab/exportFeatures.py)
+- [Major Mono](https://github.com/googlefonts/majormono/tree/master/sources)
+
+### Using the TypeRig API
+
+- [For the Science Gothic project](https://github.com/tphinney/science-gothic/tree/main/scripts/FontLab)
+
+## Documentation
+
 - [FontLab 7 Python API documentation](https://fontlabcom.github.io/fontlab-python-docs/)
 

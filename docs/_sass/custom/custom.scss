@@ -1,4 +1,3 @@
-
 @import "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@400;500;600&family=Roboto+Mono:ital@0;1&family=Work+Sans:wght@300;400;500&family=Roboto+Condensed:wght@300;400;700&display=swap";
 body {
     font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -80,7 +79,7 @@ div.texteditor {
     margin-top: 2rem;
 }
 
-.uk-link-toggle:hover .uk-link, .uk-link:hover, a:hover {
+.uk-link, a, .uk-link-toggle:hover .uk-link, .uk-link:hover, a:hover {
     text-decoration: none;
     color: unset;
 }

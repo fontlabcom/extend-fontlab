@@ -6,7 +6,7 @@ nav_order: 1
 
 # Extend FontLab
 
-Extensions, plugins, scripts, templates for the <strong><a href="https://www.fontlab.com/font-editor/fontlab/">FontLab</a></strong> professional font editor.
+Extensions, plugins, scripts, templates for the <strong><a href="https://www.fontlab.com/font-editor/fontlab/">FontLab</a></strong> professional font editor (versions 8 & 7).
 
 <div uk-grid class="uk-grid-column-small uk-grid-row-medium uk-child-width-1-2@s">
 <div class="uk-card uk-padding-small">

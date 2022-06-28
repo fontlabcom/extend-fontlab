@@ -23,7 +23,7 @@ nav_order: 1
 <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
 </div>
 
-**TypeRig** is a mighty collection of tools and scripts that extend the FontLab font editor. TypeRig is developed by Vassil Kateliev.
+**TypeRig** is a mighty collection of tools and scripts that extend the FontLab 8 & 7 font editor. TypeRig is developed by Vassil Kateliev. It works on the newest FontLab 8, and should work on FontLab 7 as well. Future versions will focus on FontLab 8.
 
 ## Installation
 

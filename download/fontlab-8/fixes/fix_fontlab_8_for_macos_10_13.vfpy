@@ -1,0 +1,124 @@
+# -*- coding: utf-8 -*-
+import sys, shutil
+from pathlib import Path
+
+from PythonQt.QtGui import (
+    QDialog,
+    QTextEdit,
+    QDialogButtonBox,
+    QVBoxLayout,
+    QMessageBox,
+)
+import fontlab
+
+fix_syspath = """
+import sys
+sys.path = ['/Library/Frameworks/Python.framework/Versions/3.10/lib/python310.zip', '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10', '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/lib-dynload', '/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages'] + sys.path
+
+"""
+
+python_installer_url = "https://www.python.org/ftp/python/3.10.5/python-3.10.5-macos11.pkg"
+
+md_msg = """
+
+## Fix Python for FontLab 8 on macOS 10.13 High Sierra
+
+To run Python scripts on macOS 10.13, you need to install the standalone Python 3.10 installer from Python.org.
+
+1. Click OK and your web browser will download the Python 3.10 installer into your Downloads folder.
+2. Double-click the downloaded `python-3.10.5-macos11.pkg` file and follow the instructions to install it completely.
+3. Restart FontLab 8 and open this `fix_fontlab_8_for_macos_10_13.vfpy` file in FontLab 8 again.
+
+"""
+
+appmain = fontlab.flWorkspace.instance().mainWindow
+
+def info(msg, gui=False):
+    if gui:
+        QMessageBox(QMessageBox.Information, "Info", msg).exec()
+    else:
+        appmain.doOutput(msg, True)
+
+
+def warn(msg, gui=False):
+    if gui:
+        QMessageBox(QMessageBox.Warning, "Warning", msg).exec()
+    else:
+        appmain.doWarning(msg)
+
+
+def error(msg, gui=False):
+    if gui:
+        QMessageBox(QMessageBox.Critical, "Error", msg).exec()
+    else:
+        appmain.doWarning(f"[ERROR] {msg}")
+
+
+class ShowMarkdownDialog(QDialog):
+    def __init__(self, parent=None, title="Info", markdown="", button="OK"):
+        super(__class__, self).__init__(parent)
+        self.resize(600, 500)
+
+        self.readmeText = QTextEdit()
+        self.readmeText.setReadOnly(True)
+        self.readmeText.setMarkdown(markdown)
+
+        layout = QVBoxLayout()
+        layout.addWidget(self.readmeText)
+
+        buttonBox = QDialogButtonBox()
+        buttonBox.setStandardButtons(QDialogButtonBox.Cancel)
+        buttonBox.addButton(button, QDialogButtonBox.AcceptRole)
+        layout.addWidget(buttonBox)
+
+        self.setLayout(layout)
+
+        self.setWindowTitle(title)
+
+        buttonBox.accepted.connect(self.accept)
+        buttonBox.rejected.connect(self.reject)
+
+def fix_startup_path(startupPath):
+    try:
+        startupScript = startupPath.read_text(encoding="utf-8")
+        startupScript = fix_syspath + startupScript
+        startupPath.write_text(startupScript, encoding="utf-8")
+        return True
+    except:
+        error("Cannot rewrite startupScript.py in your data folder, cannot proceed")
+        return False
+
+def fix_macos_10_13():
+        startupPath = Path(fontlab.flPreferences().dataPath, "startupScript.py")
+        if startupPath.is_file():
+            if fix_startup_path(startupPath):
+                import os
+                os.system(f"""open "" {python_installer_url}""")
+                return True
+            else:
+                return False
+        else:
+            error("Your data folder does not contain startupScript.py, cannot proceed")
+            return False
+
+def install():
+    if sys.path[0] != '/Library/Frameworks/Python.framework/Versions/3.10/lib/python310.zip':
+        return fix_macos_10_13()
+
+def main():
+    try:
+        import platform
+        plat_sys = platform.system()
+        info("Your Python is running correctly, click OK to visit the Extend FontLab website and download scripts there.", gui=True)
+        import webbrowser
+        webbrowser.open("https://extend.fontlab.com/", new=0, autoraise=True)
+    except ImportError:
+        dialog = ShowMarkdownDialog(
+            title="Fix Python for FontLab 8 on macOS 10.13 High Sierra", markdown=md_msg, button="OK"
+        )
+        if (dialog.exec_()) and install():
+            info("<h2>Please finish the Python installation!</h2><p>Go to your Downloads folder, double-click <code>python-3.10.5-macos11.pkg</code> and complete the Python installation. Then restart FontLab.</p>", gui=True)
+
+
+if __name__ == "__main__":
+    main()

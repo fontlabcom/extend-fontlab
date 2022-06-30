@@ -26,3 +26,10 @@ Extensions, plugins, scripts, templates for the <strong><a href="https://www.fon
 <p>Free template fonts: carefully curated collection of quality open-source typeface designs. <strong><a href="https://fontlabcom.github.io/getgo-fonts/">Read more…</a></strong></p>
 </div>
 </div>
+
+## Latest
+
+#### 2022-06-30: Fix Python in FontLab 8 on macOS 10.13 High Sierra
+
+If you’re running FontLab 8 on macOS 10.13 High Sierra and would like to use Python scripts, you need to run a special fix. [Follow these instructions]()
+

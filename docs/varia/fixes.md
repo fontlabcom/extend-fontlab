@@ -1,9 +1,11 @@
 ---
 layout: default
-title: "Fix Python in FontLab 8 on macOS 10.13 High Sierra"
+title: "Fixes"
 ---
 
-# Fix Python in FontLab 8 on macOS 10.13 High Sierra
+# Fixes
+
+## Fix Python in FontLab 8 on macOS 10.13 High Sierra
 
 If you’re running FontLab 8 on macOS 10.13 High Sierra and would like to use Python scripts, you need to run a special fix.
 

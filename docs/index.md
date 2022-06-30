@@ -31,5 +31,5 @@ Extensions, plugins, scripts, templates for the <strong><a href="https://www.fon
 
 #### 2022-06-30: Fix Python in FontLab 8 on macOS 10.13 High Sierra
 
-If you’re running FontLab 8 on macOS 10.13 High Sierra and would like to use Python scripts, you need to run a special fix. [Follow these instructions]()
+If you’re running FontLab 8 on macOS 10.13 High Sierra and would like to use Python scripts, you need to run a special fix. [Follow these instructions](varia/fixes/)
 

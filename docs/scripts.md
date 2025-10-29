@@ -15,6 +15,7 @@ title: "Scripts"
 ## Scripting API
 
 - [FontLab Python API](https://fontlabcom.github.io/fontlab-python-docs/)
+- FontLab 8 uses Python 3.11
 
 ## Questions about scripting FontLab?
 

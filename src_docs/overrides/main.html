@@ -1,0 +1,14 @@
+{# this_file: src_docs/overrides/main.html #}
+{% extends "base.html" %}
+{% block extrahead %}
+{{ super() }}
+<script src="https://i.fontlab.com/menu/fontlab.js" defer></script>
+{% endblock %}
+{% block header %}
+<fontlab-menu mode="dark" site-label="Extend FontLab" site-url="https://extend.fontlab.com/"></fontlab-menu>
+{{ super() }}
+{% endblock %}
+{% block footer %}
+{{ super() }}
+<fontlab-footer mode="dark"></fontlab-footer>
+{% endblock %}

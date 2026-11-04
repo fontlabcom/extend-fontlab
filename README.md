@@ -2,7 +2,7 @@
 this_file: README.md
 ---
 # extend-fontlab
-Extensions, scripts, plugins, templates for the FontLab font editor
+Extensions, scripts, plugins, templates for the FontLab font editor **Workspace handoff (2026-11-03):** Issue 123 development is paused. No new November 2–3catalogue/runtime delivery is attributed here; shared-theme ownership remains unchanged. No shared CSS/theme build, rendered-site verification or publication occurred in this task.
 
 ## Build the website
 

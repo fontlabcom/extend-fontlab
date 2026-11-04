@@ -1,3 +1,24 @@
+---
+this_file: AGENTS.md
+---
+
+<!-- workspace-handoff:2026-11-03 -->
+## Workspace documentation handoff —2026-11-03
+
+Issue 123 implementation is paused by the owner. The present request authorizes
+only documentation maintenance; preserve all source, owner edits and branch state.
+Extension catalogue and user-facing documentation. Observed canonical checkout: `main` at `6adea0b3ab62`. No source integration is performed by this update.
+
+No new November 2–3catalogue/runtime delivery is attributed here; shared-theme ownership remains unchanged.
+
+No shared CSS/theme build, rendered-site verification or publication occurred in this task.
+
+Read workspace AGENTS/DECISIONS and local project guidance before later work.
+Use direct execution unless a new request explicitly authorizes agents. Product
+work stays isolated; this docs-only request does not authorize native actions,
+installs, merges, pushes, releases, generated-site updates or legacy retirement.
+<!-- /workspace-handoff -->
+
 <!-- this_file: AGENTS.md -->
 
 # extend-fontlab: agent guidance

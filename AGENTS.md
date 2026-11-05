@@ -2,22 +2,42 @@
 this_file: AGENTS.md
 ---
 
-<!-- workspace-handoff:2026-11-03 -->
-## Workspace documentation handoff —2026-11-03
+# extend-fontlab: agent guide
 
-Issue 123 implementation is paused by the owner. The present request authorizes
-only documentation maintenance; preserve all source, owner edits and branch state.
-Extension catalogue and user-facing documentation. Observed canonical checkout: `main` at `6adea0b3ab62`. No source integration is performed by this update.
+The website catalogue for FontLab extensions, scripts, plugins and templates.
 
-No new November 2–3catalogue/runtime delivery is attributed here; shared-theme ownership remains unchanged.
+Edit Markdown in `src_docs/md/` and configuration in `src_docs/mkdocs.yml`. `docs/` is generated output; `download/` contains downloads. Read THEME.md for shared theme ownership.
 
-No shared CSS/theme build, rendered-site verification or publication occurred in this task.
+## Workflow
 
-Read workspace AGENTS/DECISIONS and local project guidance before later work.
-Use direct execution unless a new request explicitly authorizes agents. Product
-work stays isolated; this docs-only request does not authorize native actions,
-installs, merges, pushes, releases, generated-site updates or legacy retirement.
-<!-- /workspace-handoff -->
+Work in an isolated successor and preserve concurrent owner edits and branch state.
+Read README, PLAN, TODO, WORK and CHANGELOG first. Choose one small useful MVP
+milestone; inspect callers and imports before source changes and use graph impact
+where indexed. Keep the exact applicable tests and the unchanged complete-module
+80% coverage gate for changed production modules. Documentation-only changes need
+links, fences, headers, privacy and diff checks, not a new product test run.
+
+After independent review and the applicable checks, commit and push each milestone
+and verify the remote result. Integrate qualified branches into main (or this
+repository’s existing primary branch) without discarding owner work. Before deleting
+obsolete branches, files or folders, prove recovery, current integration and absence
+of unique or attached owner work. Update TODO and CHANGELOG with each milestone;
+remove only scoped verified tasks and retain unmet native, delivery and release gates.
+Issue 123 stays paused. Do not access owner fonts, preferences or the FontLab user
+folder. Source tests, artifacts, native acceptance and publication are separate.
+
+## Verification
+
+Python 3.12+ and uv are required. The project pins ProperDocs 1.6.7 and MaterialX 10.1.5. A separately authorized isolated build uses `bash build.sh`; it writes docs/ and docs/.nojekyll. This is a build, not a runtime test or proof of a live site. No automated test suite is established.
+
+## Boundaries
+
+Keep shared browser behavior in the shared theme project. Preserve existing downloads, public URLs, licence terms and authorship. Never hand-edit generated CSS as the source fix.
+
+## Retained local guidance
+
+Keep the project-specific rules and examples below. The current workflow and
+verification limits above govern this documentation milestone.
 
 <!-- this_file: AGENTS.md -->
 

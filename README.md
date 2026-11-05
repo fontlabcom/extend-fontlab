@@ -1,8 +1,27 @@
 ---
 this_file: README.md
 ---
+
 # extend-fontlab
-Extensions, scripts, plugins, templates for the FontLab font editor **Workspace handoff (2026-11-03):** Issue 123 development is paused. No new November 2–3catalogue/runtime delivery is attributed here; shared-theme ownership remains unchanged. No shared CSS/theme build, rendered-site verification or publication occurred in this task.
+
+The website catalogue for FontLab extensions, scripts, plugins and templates.
+
+Edit Markdown in `src_docs/md/` and configuration in `src_docs/mkdocs.yml`. `docs/` is generated output; `download/` contains downloads. Read THEME.md for shared theme ownership.
+
+## Development
+
+Python 3.12+ and uv are required. The project pins ProperDocs 1.6.7 and MaterialX 10.1.5. A separately authorized isolated build uses `bash build.sh`; it writes docs/ and docs/.nojekyll. This is a build, not a runtime test or proof of a live site. No automated test suite is established.
+
+Keep shared browser behavior in the shared theme project. Preserve existing downloads, public URLs, licence terms and authorship. Never hand-edit generated CSS as the source fix.
+
+Use an isolated checkout. Read [AGENTS.md](AGENTS.md) for workflow and
+[TODO.md](TODO.md) for pending work. The Issue 230 documentation reconciliation
+does not establish a new runtime, native or release result.
+
+## Existing usage and reference
+
+# extend-fontlab
+Extensions, scripts, plugins, templates for the FontLab font editor
 
 ## Build the website
 

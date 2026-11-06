@@ -71,6 +71,7 @@ jobs:
           git diff --exit-code -- docs
           test -z "$(git ls-files --others --exclude-standard -- docs)"
       - name: Request branch-source Pages build
+        if: github.event_name == 'workflow_dispatch' || needs.build.outputs.sha != github.sha
         env:
           GH_TOKEN: ${{ github.token }}
           OUTPUT_SHA: ${{ needs.build.outputs.sha }}

@@ -100,11 +100,18 @@ class SiteTests(unittest.TestCase):
         workflow = yaml.safe_load((ROOT / '.github/workflows/docs.yml').read_text())
         events = workflow.get('on', workflow.get(True))
         self.assertEqual(events['push'], {'branches': ['main']})
+        self.assertIn('workflow_dispatch', events)
         self.assertNotIn('concurrency', workflow)
         build = workflow['jobs']['build']
         verify = workflow['jobs']['qualify-and-request']
         self.assertNotIn('concurrency', build)
+        self.assertNotIn('if', build)
         self.assertEqual(verify['needs'], 'build')
+        self.assertEqual(verify['if'], "needs.build.outputs.sha != ''")
+        self.assertFalse(any('if' in step for step in verify['steps'][:-1]))
+        request = verify['steps'][-1]
+        self.assertEqual(request['run'], 'sh src_docs/request-pages.sh "$OUTPUT_SHA"')
+        self.assertEqual(request.get('if'), "github.event_name == 'workflow_dispatch' || needs.build.outputs.sha != github.sha")
         self.assertEqual(build['outputs']['epoch'], '${{ steps.epoch.outputs.value }}')
         for job, epoch in ((build, '${{ steps.epoch.outputs.value }}'), (verify, '${{ needs.build.outputs.epoch }}')):
             build_step = next(s for s in job['steps'] if s.get('run') == 'sh src_docs/build.sh')

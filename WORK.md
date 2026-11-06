@@ -2,6 +2,23 @@
 this_file: WORK.md
 ---
 
+## 2026-11-06 — Issue 233 avoid duplicate source Pages requests
+
+The final Pages request now runs for a bot-generated output commit or a deliberate
+manual main dispatch. A normal main push with unchanged output still completes
+both immutable build/test/parity jobs and uses its automatic Pages deployment.
+The request helper, freshness guards and publication permissions remain unchanged.
+
+The 20-case suite, GitHub expression-engine scenario/mutation checks and actionlint
+pass locally. All 56 rendered files and SSG inputs remain exact; no owned-site rebuild
+or hosted Pages request ran for this workflow-only correction. The underlying
+managed deployment cancellation is unproved. A fresh reviewed source commit is a
+bounded recovery attempt, not an established backend reset or live success.
+Earlier search, focus and accessibility limits remain. Independent review and
+actual delivery/deployment/live verification are still separate gates.
+
+
+
 ## 2026-11-06 — Issue 233 search pointer layering
 
 Raised only the reparented local search dialog above its outside-click overlay

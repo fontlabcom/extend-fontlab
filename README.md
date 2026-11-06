@@ -54,7 +54,9 @@ commit containing generated output.
 Every main push builds the exact event commit. Only generated `docs/` may be
 committed, after a fresh remote-main check; ordinary push rejects competing
 writers. A dependent read-only checkout rebuilds that exact output commit and
-requires complete output parity before explicitly requesting a legacy Pages
-build. Pages must use default `main` and `main:/docs`. The API builds latest
+requires complete output parity. A normal main push with unchanged output uses
+the automatic Pages build; bot-generated output or a deliberate manual main
+dispatch explicitly requests a legacy Pages build. Pages must use default `main`
+and `main:/docs`. The API builds latest
 default; before/after head checks expose, but cannot atomically prevent, drift
 during its request. Actual run/deployment/live proof is separate from local tests.

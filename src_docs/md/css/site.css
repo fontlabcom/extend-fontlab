@@ -7,3 +7,6 @@ fontlab-menu { display: block; position: sticky; top: 0; z-index: 100; }
 
 .du-carousel-item { width: 100%; margin: 0; justify-content: center; }
 .video-container iframe { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; }
+
+/* Issue 233: distinguish inline links without relying on colour. */
+.md-typeset p a { text-decoration: underline; }

@@ -10,7 +10,7 @@ Edit Markdown in `src_docs/md/` and configuration in `src_docs/mkdocs.yml`. `doc
 
 ## Development
 
-Python 3.12+ and uv are required. The project pins ProperDocs 1.6.7 and MaterialX 10.1.5. A separately authorized isolated build uses `bash build.sh`; it writes docs/ and docs/.nojekyll. This is a build, not a runtime test or proof of a live site. No automated test suite is established.
+Python 3.12+ and uv are required. The project pins ProperDocs 1.6.7 and MaterialX 10.1.5. A separately authorized isolated build uses `bash build.sh`; it writes docs/ and docs/.nojekyll. This is a build, not a runtime test or proof of a live site. The docs boundary suite runs with `uv run python -B -m unittest discover -s tests_docs -v`.
 
 Keep shared browser behavior in the shared theme project. Preserve existing downloads, public URLs, licence terms and authorship. Never hand-edit generated CSS as the source fix.
 
@@ -43,3 +43,18 @@ publication route, control ownership, shared visual changes and verification.
 Use the [public setup guide](https://i.fontlab.com/fltheme26/) and
 [MaterialX starter](https://i.fontlab.com/fltheme26/starter.zip) for new sites.
 <!-- shared-theme-integration:end -->
+
+## Main-branch publication
+
+`build.sh` runs the strict clean builder using the existing uv lock. The builder
+uses the checkout date unless `SOURCE_DATE_EPOCH` is provided. Actions captures
+the source date once and reuses it for both builds, including the immutable
+commit containing generated output.
+
+Every main push builds the exact event commit. Only generated `docs/` may be
+committed, after a fresh remote-main check; ordinary push rejects competing
+writers. A dependent read-only checkout rebuilds that exact output commit and
+requires complete output parity before explicitly requesting a legacy Pages
+build. Pages must use default `main` and `main:/docs`. The API builds latest
+default; before/after head checks expose, but cannot atomically prevent, drift
+during its request. Actual run/deployment/live proof is separate from local tests.

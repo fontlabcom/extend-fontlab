@@ -54,8 +54,8 @@ open dialogs, selected text and other modifiers retain their normal behavior.
 Wrap Basecoat and daisyUI markup in a separate `.fltheme-components` container.
 Basecoat keeps its classes; prefix every daisyUI component class with `du-`.
 MaterialX keeps `md-` classes. Enable `attr_list` and `md_in_html` when using Markdown
-attributes and `markdown="1"` inside HTML containers. The host retains its fonts
-and theme picker; wrappers may opt into `data-fltheme-mode="light"` or `"dark"`.
+attributes and `markdown="1"` inside HTML containers. This catalogue fixes the host palette and menu/footer to light under Issue 233;
+wrappers may opt into `data-fltheme-mode="light"` or `"dark"`.
 Call `FLTheme.refresh()` after manual DOM replacement; native instant navigation
 is already handled. Do not load another Basecoat runtime.
 
@@ -87,7 +87,8 @@ For a site-specific config/template change, use this repository’s native build
 publish route, then inspect its final output. Cached Webflow/static overlays can
 replace intermediate HTML, so checking a MkDocs build alone is insufficient.
 
-Check desktop and mobile, light and dark, local/global ownership, drawer/search
+Check desktop and mobile, light appearance despite OS or saved dark preferences,
+local/global ownership, drawer/search
 open-close-focus behavior, key navigation and at least one component interaction.
 Shared assets must load once. Keep unrelated working-tree edits, content, branding,
 URLs, downloadable payloads and deployment credentials untouched.

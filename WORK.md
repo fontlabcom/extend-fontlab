@@ -2,6 +2,24 @@
 this_file: WORK.md
 ---
 
+## 2026-11-06 — Issue 233 local implementation and checks
+
+Added a two-job main-push docs workflow with exact source/output checkouts,
+source-bound reproducible dates, guarded docs-only ordinary pushes and an
+explicit Pages build request after full immutable-output rebuild parity.
+Retained ProperDocs 1.6.7, MaterialX 10.1.5, the complete uv lock, all authored
+catalogue pages, download bytes, assets, licences, routes and custom domain.
+Selected one default/light palette and explicit light menu/footer.
+A local paragraph-link underline fixes the measured colour-only link defect;
+the original stylesheet prefix and all other authored payloads are retained.
+
+Local strict baseline/build and the 20-case docs suite passed, including remote
+failure, permission, stale-source, competing-writer and cross-midnight parity
+cases. Independent review, normal integration, actual Actions/token/Pages and
+live verification remain separate pending gates. No native or owner installation
+acceptance follows. Earlier entries below remain unchanged history.
+
+
 ## 2026-11-05 — approved documentation applied
 
 Task 3 received independent SPEC PASS / QUALITY APPROVED review. Its 52 guides

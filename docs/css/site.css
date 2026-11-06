@@ -10,3 +10,6 @@ fontlab-menu { display: block; position: sticky; top: 0; z-index: 100; }
 
 /* Issue 233: distinguish inline links without relying on colour. */
 .md-typeset p a { text-decoration: underline; }
+
+/* The shared bridge reparents search; keep its dialog above the outside-click overlay. */
+.fl-local-search > .md-search__inner { z-index: 2; }

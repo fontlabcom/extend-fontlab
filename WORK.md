@@ -2,6 +2,24 @@
 this_file: WORK.md
 ---
 
+## 2026-11-06 — Issue 233 search pointer layering
+
+Raised only the reparented local search dialog above its outside-click overlay
+in the authored site CSS. Strict rebuilding and the unchanged 20-case docs suite
+pass locally. Chromium at 1280×900 and 390×900 follows ordinary search-result
+clicks to the owned fixes route and exact heading anchor. Escape closes search
+and returns focus to its opener; desktop outside-click still closes search.
+A deliberate blocked-layer control still prevents the result click.
+
+Exact baseline/corrected-CSS comparison retains the existing outside-focus gap:
+focus stays briefly in the hidden input, then moves to the body rather than the
+opener. Earlier no-result intermittency and incomplete accessibility checks stay
+unresolved. These isolated local checks do not establish full live acceptance.
+Independent review, ordinary delivery, Actions, Pages and fresh live verification
+remain separate. No native or owner installation acceptance follows.
+
+
+
 ## 2026-11-06 — Issue 233 local implementation and checks
 
 Added a two-job main-push docs workflow with exact source/output checkouts,

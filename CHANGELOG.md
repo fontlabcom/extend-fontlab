@@ -99,3 +99,13 @@ recorded in the root CHANGELOG and retained verification reports.
 - Preserved Markdown content, page routes, downloadable files and specimen assets.
 - Added shared FontLab chrome, light/dark mode, search and scoped Basecoat/daisyUI.
 - Added uv build dependencies and a reproducible `./build.sh` entry point.
+
+
+## 2026-11-07 — Exact frontend notices and English search assets
+
+Added exact upstream frontend notices and source-map provenance for the existing MaterialX 10.1.5 payload. Explicit English configuration and a small build hook reject language, corpus, reference, asset-set or hash drift before omitting the 34 unused language helpers. All nine retained core assets, original product legal files, guides, catalogue rows, media, runtime and dependency/build locks are preserved.
+
+The strict site build and all 35 documentation tests pass. The complete new hook has 100% statement/branch coverage; real Git staging, checkout and archives preserve exact legal bytes. An independently installed matching lock reproduces all 50 output bytes and modes. Existing immutable source/output, epoch, concurrency and full-parity workflow checks remain active. Browser and independent review evidence are separate from these local checks.
+
+The public site still requires reviewed source integration, actual hosted Actions, exact generated output and publication/browser qualification.
+No product release or installation is claimed. Prior ordinary artifacts remain bound to their recorded revisions; a later Git revision changes genuine hatch-vcs metadata. Full current source archives include these documentation additions; no unchanged-sdist or whole-wheel identity is asserted. Native acceptance and owner installation remain separate.

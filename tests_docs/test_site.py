@@ -12,7 +12,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'docs'
 PREFIX = '/'
-PAGES = ['index.html', 'scripts/index.html', 'typerig/index.html', 'varia/fixes/index.html']
+PAGES = ['index.html', 'scripts/index.html', 'typerig/index.html', 'varia/fixes/index.html', 'frontend-notices/index.html']
 
 
 class Page(HTMLParser):
@@ -69,7 +69,7 @@ class SiteTests(unittest.TestCase):
     def test_search_indexes_every_authored_page(self):
         search = json.loads((SITE / 'search/search_index.json').read_text())
         locations = {row['location'].split('#')[0] for row in search['docs']}
-        self.assertEqual(locations, {'', 'scripts/', 'typerig/', 'varia/fixes/'})
+        self.assertEqual(locations, {'', 'scripts/', 'typerig/', 'varia/fixes/', 'frontend-notices/'})
         text = ' '.join(row['text'] for row in search['docs'])
         for term in ('TypeRig', 'Python', 'High Sierra', 'FontLab'):
             self.assertIn(term, text)

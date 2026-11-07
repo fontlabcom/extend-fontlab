@@ -1,0 +1,2056 @@
+{
+  "schema_version": 1,
+  "scope": "Current English browser payload and exact retained notices; build dependencies and external services have separate provenance.",
+  "components": [
+    {
+      "name": "clipboard",
+      "version": "2.0.11",
+      "source_url": "https://registry.npmjs.org/clipboard/-/clipboard-2.0.11.tgz",
+      "archive_sha256": "735f1b1e9ac7266401ed5f72728738007599ce6e1f3b14e490dab8b0fd1b653f",
+      "notices": [
+        {
+          "path": "assets/current-frontend/clipboard/LICENSE.txt",
+          "sha256": "a798e7b5fa604117d52d607e05f1cbac3b2fa5da087837f412a1a3c866b4b748",
+          "archive_member": "package/LICENSE",
+          "archive_member_sha256": "a798e7b5fa604117d52d607e05f1cbac3b2fa5da087837f412a1a3c866b4b748",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "tiny-emitter",
+      "version": "2.1.0",
+      "source_url": "https://registry.npmjs.org/tiny-emitter/-/tiny-emitter-2.1.0.tgz",
+      "archive_sha256": "538c1ea30c1ec068d85c679bb900f3407dcbc0cf65ff0191c4ccba47dc01713a",
+      "notices": [
+        {
+          "path": "assets/current-frontend/tiny-emitter/LICENSE.txt",
+          "sha256": "aada4c7da6a5be46beadf9d4f40d7dba9e222e57180d46289b2bb9112e65daae",
+          "archive_member": "package/LICENSE",
+          "archive_member_sha256": "aada4c7da6a5be46beadf9d4f40d7dba9e222e57180d46289b2bb9112e65daae",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "escape-html",
+      "version": "1.0.3",
+      "source_url": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz",
+      "archive_sha256": "a101155c3cbdfb1e4f98f2f83c8b5e392db6accfa606df0eba8b87a5762b0366",
+      "notices": [
+        {
+          "path": "assets/current-frontend/escape-html/LICENSE.txt",
+          "sha256": "255aa557a1f55224ce522f311629c0bf20854740a67955cefd798fbd1d3d1ded",
+          "archive_member": "package/LICENSE",
+          "archive_member_sha256": "255aa557a1f55224ce522f311629c0bf20854740a67955cefd798fbd1d3d1ded",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "focus-visible",
+      "version": "5.2.1",
+      "source_url": "https://registry.npmjs.org/focus-visible/-/focus-visible-5.2.1.tgz",
+      "archive_sha256": "c13af10425e111b5e9d8bfdd55fd2a0007f589f17ca6b7e38aaa1921c42d0297",
+      "notices": [
+        {
+          "path": "assets/current-frontend/focus-visible/LICENSE.md.txt",
+          "sha256": "7aeb3acf108717fd0f68ada2eebeaaec46dcdd239b4c5e7b4b8e6ea8861acfdd",
+          "archive_member": "package/LICENSE.md",
+          "archive_member_sha256": "7aeb3acf108717fd0f68ada2eebeaaec46dcdd239b4c5e7b4b8e6ea8861acfdd",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "rxjs",
+      "version": "7.8.2",
+      "source_url": "https://registry.npmjs.org/rxjs/-/rxjs-7.8.2.tgz",
+      "archive_sha256": "2312f8ffd9726ffd7bd53ea12c5f13663d09a3dc3326f448c70b88f5ef6fac82",
+      "notices": [
+        {
+          "path": "assets/current-frontend/rxjs/LICENSE.txt.txt",
+          "sha256": "81c407ac717813b0e3795402960e04003c7bba8ba59b621624707028531c9ade",
+          "archive_member": "package/LICENSE.txt",
+          "archive_member_sha256": "81c407ac717813b0e3795402960e04003c7bba8ba59b621624707028531c9ade",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "tslib",
+      "version": "2.7.0",
+      "source_url": "https://registry.npmjs.org/tslib/-/tslib-2.7.0.tgz",
+      "archive_sha256": "70d057c311c797b234d8868f33330af39a977da94e92264257736b0b88d57e4c",
+      "notices": [
+        {
+          "path": "assets/current-frontend/tslib/LICENSE.txt.txt",
+          "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+          "archive_member": "package/LICENSE.txt",
+          "archive_member_sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+          "scope": "Complete exact package notice"
+        },
+        {
+          "path": "assets/current-frontend/tslib/CopyrightNotice.txt.txt",
+          "sha256": "da16ddb65f8ca390998fb99223d0112498b56b45784d00afd77ff8ce1ac4de8b",
+          "archive_member": "package/CopyrightNotice.txt",
+          "archive_member_sha256": "da16ddb65f8ca390998fb99223d0112498b56b45784d00afd77ff8ce1ac4de8b",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "lunr",
+      "version": "2.3.9",
+      "source_url": "https://registry.npmjs.org/lunr/-/lunr-2.3.9.tgz",
+      "archive_sha256": "d886e7dc4339a7ede2e5e7fe0e07e6a6feeb1b3bcca0adea836cf53c62699030",
+      "notices": [
+        {
+          "path": "assets/current-frontend/lunr/LICENSE.txt",
+          "sha256": "ae33f5a0d538cd93de1136a052ffa734b59d6b28e7cfc19e03de1d8b5d9f40ea",
+          "archive_member": "package/LICENSE",
+          "archive_member_sha256": "ae33f5a0d538cd93de1136a052ffa734b59d6b28e7cfc19e03de1d8b5d9f40ea",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "material-design-color",
+      "version": "2.3.2",
+      "source_url": "https://registry.npmjs.org/material-design-color/-/material-design-color-2.3.2.tgz",
+      "archive_sha256": "2aaf81c9404f322e0105b29dad80fcd0d93cc980f83e035cf144321770eab0fb",
+      "notices": [
+        {
+          "path": "assets/current-frontend/material-design-color/LICENSE.txt",
+          "sha256": "9363d160bf41d46d83901a5d24fc3fe2094c2afc17b4a2378914b273977ee2de",
+          "archive_member": "package/LICENSE",
+          "archive_member_sha256": "9363d160bf41d46d83901a5d24fc3fe2094c2afc17b4a2378914b273977ee2de",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "@mdi/svg",
+      "version": "7.4.47",
+      "source_url": "https://registry.npmjs.org/@mdi/svg/-/svg-7.4.47.tgz",
+      "archive_sha256": "de92e5dc9ce46c392ab5c53aa7190b19f82b40cb48872a083f788c7e13e91fef",
+      "notices": [
+        {
+          "path": "assets/current-frontend/@mdi-svg/LICENSE.txt",
+          "sha256": "f3bc8715bad84b26396bb42d2abd11f919cf58163be158eab79ecbaabf84cdf2",
+          "archive_member": "package/LICENSE",
+          "archive_member_sha256": "f3bc8715bad84b26396bb42d2abd11f919cf58163be158eab79ecbaabf84cdf2",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "@fortawesome/fontawesome-free",
+      "version": "7.1.0",
+      "source_url": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-7.1.0.tgz",
+      "archive_sha256": "566426b219fdb2a703ae9388b13add58274a4867df154b1d950de511f089bfde",
+      "notices": [
+        {
+          "path": "assets/current-frontend/@fortawesome-fontawesome-free/LICENSE.txt.txt",
+          "sha256": "329f24fdba0c57714d7d202d30a74767feac6907685ee24f0abbf1bd47581a07",
+          "archive_member": "package/LICENSE.txt",
+          "archive_member_sha256": "329f24fdba0c57714d7d202d30a74767feac6907685ee24f0abbf1bd47581a07",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "@primer/octicons",
+      "version": "19.25.0",
+      "source_url": "https://registry.npmjs.org/@primer/octicons/-/octicons-19.25.0.tgz",
+      "archive_sha256": "4720509c66b957c63be7fb6f0b672c93fc0609b75af6f3da7961aee4c9679b19",
+      "notices": [
+        {
+          "path": "assets/current-frontend/@primer-octicons/LICENSE.txt",
+          "sha256": "da259c8bd0de62713ccdcf88910aebca810644f98c2c912bad814fc79ea778df",
+          "archive_member": "package/LICENSE",
+          "archive_member_sha256": "da259c8bd0de62713ccdcf88910aebca810644f98c2c912bad814fc79ea778df",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "lucide-static",
+      "version": "1.11.0",
+      "source_url": "https://registry.npmjs.org/lucide-static/-/lucide-static-1.11.0.tgz",
+      "archive_sha256": "dc62525488ad157bce1799e9b72c6647eb4b2688eff382b289bea07801f28993",
+      "notices": [
+        {
+          "path": "assets/current-frontend/lucide-static/LICENSE.txt",
+          "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+          "archive_member": "package/LICENSE",
+          "archive_member_sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+          "scope": "Complete exact package notice"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "version": "1.1.2",
+      "source_url": "https://registry.npmjs.org/select/-/select-1.1.2.tgz",
+      "archive_sha256": "669bf87efbe97c919d31ba02b837575ce8e1011cd793c9fbc667cb975e993595",
+      "notices": [
+        {
+          "path": "assets/current-frontend/select/readme.md.txt",
+          "sha256": "b5c1314cb13edfc32da671ee9ae1ddf069d626e6b1d51f40bb7bac608626ed8f",
+          "archive_member": "package/readme.md",
+          "archive_member_sha256": "7751cfa73d05c8203ecb7783ce3a5ee7ead8cebc93a10fcb07b6336be9b66bfe",
+          "scope": "Exact README License section; upstream supplies this MIT link and Zeno Rocha attribution, not a standalone LICENSE file"
+        }
+      ]
+    },
+    {
+      "name": "good-listener",
+      "version": "1.2.2",
+      "source_url": "https://registry.npmjs.org/good-listener/-/good-listener-1.2.2.tgz",
+      "archive_sha256": "9d6844c3b08f24393730dd95ffc0a2360a74a9066d2f3c9c0eb0ee3e74577f75",
+      "notices": [
+        {
+          "path": "assets/current-frontend/good-listener/readme.md.txt",
+          "sha256": "b5c1314cb13edfc32da671ee9ae1ddf069d626e6b1d51f40bb7bac608626ed8f",
+          "archive_member": "package/readme.md",
+          "archive_member_sha256": "359f9d57eea812ac4c93cfffe4dc40ab53f8a63492ab4821d96bc4ac336f6e64",
+          "scope": "Exact README License section; upstream supplies this MIT link and Zeno Rocha attribution, not a standalone LICENSE file"
+        }
+      ]
+    },
+    {
+      "name": "delegate",
+      "version": "3.2.0",
+      "source_url": "https://registry.npmjs.org/delegate/-/delegate-3.2.0.tgz",
+      "archive_sha256": "7e0369ceec2aaaf7984534c6a7a2b6ab6478502aec916c7ea502782d022a48fb",
+      "notices": [
+        {
+          "path": "assets/current-frontend/delegate/readme.md.txt",
+          "sha256": "b5c1314cb13edfc32da671ee9ae1ddf069d626e6b1d51f40bb7bac608626ed8f",
+          "archive_member": "package/readme.md",
+          "archive_member_sha256": "93b4b2ecd5ed0ade8cefff215bef19611da38da224205b404db3a499106bf24b",
+          "scope": "Exact README License section; upstream supplies this MIT link and Zeno Rocha attribution, not a standalone LICENSE file"
+        }
+      ]
+    },
+    {
+      "name": "MaterialX10.1.5",
+      "source_url": "https://github.com/jaywhj/mkdocs-materialx/blob/c088af2faa3a75dd4b9cded468eca285b6775d71/LICENSE",
+      "scope": "Publisher pinned10.1.5 licence",
+      "notices": [
+        {
+          "path": "assets/current-frontend/retained/materialx-10.1.5-LICENSE.txt",
+          "sha256": "e1150f26b4c0f872627b39fda49ae3bd850304f2f7f3171ae0531c1f8f4dd078"
+        }
+      ]
+    },
+    {
+      "name": "Retained corresponding terms",
+      "source_url": "https://i.fontlab.com/fltheme26/",
+      "scope": "Exact retained notice text; external service response identity is separate",
+      "notices": [
+        {
+          "path": "assets/current-frontend/retained/apache-2.0.txt.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        }
+      ]
+    },
+    {
+      "name": "Retained corresponding terms",
+      "source_url": "https://i.fontlab.com/fltheme26/",
+      "scope": "Exact retained notice text; external service response identity is separate",
+      "notices": [
+        {
+          "path": "assets/current-frontend/retained/cc-by-4.0.txt.txt",
+          "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+        }
+      ]
+    },
+    {
+      "name": "Retained corresponding terms",
+      "source_url": "https://i.fontlab.com/fltheme26/",
+      "scope": "Exact retained notice text; external service response identity is separate",
+      "notices": [
+        {
+          "path": "assets/current-frontend/retained/w3c-focus-visible.txt.txt",
+          "sha256": "e4a2e173377d34e0742d9aead830aec9e74356a99a9385d58b8850c84cb36346"
+        }
+      ]
+    },
+    {
+      "name": "Retained corresponding terms",
+      "source_url": "https://i.fontlab.com/fltheme26/",
+      "scope": "Exact retained notice text; external service response identity is separate",
+      "notices": [
+        {
+          "path": "assets/current-frontend/retained/mit-basecoat-css.txt.txt",
+          "sha256": "160a6cea26ff1931297957499ab739e94c4bc79ecea18b490c9f533fa76ace78"
+        }
+      ]
+    },
+    {
+      "name": "Retained corresponding terms",
+      "source_url": "https://i.fontlab.com/fltheme26/",
+      "scope": "Exact retained notice text; external service response identity is separate",
+      "notices": [
+        {
+          "path": "assets/current-frontend/retained/mit-daisyui.txt.txt",
+          "sha256": "8709e3ac65c84637c422dc8082b893d9997fce093751c77b2f1983bf29dbf9ea"
+        }
+      ]
+    },
+    {
+      "name": "Retained corresponding terms",
+      "source_url": "https://i.fontlab.com/fltheme26/",
+      "scope": "Exact retained notice text; external service response identity is separate",
+      "notices": [
+        {
+          "path": "assets/current-frontend/retained/mit-tailwindcss.txt.txt",
+          "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985"
+        }
+      ]
+    },
+    {
+      "name": "Retained corresponding terms",
+      "source_url": "https://i.fontlab.com/fltheme26/",
+      "scope": "Exact retained notice text; external service response identity is separate",
+      "notices": [
+        {
+          "path": "assets/current-frontend/retained/ofl-roboto.txt.txt",
+          "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+        }
+      ]
+    },
+    {
+      "name": "Retained corresponding terms",
+      "source_url": "https://i.fontlab.com/fltheme26/",
+      "scope": "Exact retained notice text; external service response identity is separate",
+      "notices": [
+        {
+          "path": "assets/current-frontend/retained/ofl-robotomono.txt.txt",
+          "sha256": "50ab8dd54680d3473f649c9db86fece88434d097c7834475c1c72d2f8c429215"
+        }
+      ]
+    }
+  ],
+  "source_maps": [
+    {
+      "path": "assets/javascripts/bundle.1a8646e9.min.js.map",
+      "sha256": "da4072316d6c650e04873960d14596c6e05176e47304e3fe4e85c37f14fc30c3",
+      "sources_count": 211,
+      "sources": [
+        {
+          "source": "node_modules/focus-visible/dist/focus-visible.js",
+          "sha256": "68cdf9fb09bc676506c8bc97a34607d9ea63afb5d0c54776fac558d015da14cc",
+          "package": "focus-visible",
+          "archive_member": "package/dist/focus-visible.js",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/escape-html/index.js",
+          "sha256": "42a7f91883d0c5ce9292dda4e017e1f8664d34b09276d89fb6f3859c29d1ca9b",
+          "package": "escape-html",
+          "archive_member": "package/index.js",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/clipboard/dist/clipboard.js",
+          "sha256": "ba5f78267d0c04e8a31aebd7860c7fd7fc236891cddd477a4c7fdc19a0eb176e",
+          "package": "clipboard",
+          "archive_member": "package/dist/clipboard.js",
+          "byte_exact": true
+        },
+        {
+          "source": "src/templates/assets/javascripts/bundle.ts",
+          "sha256": "6694b222857d5b8b38455782750c7ab0a43927b1fbe7271d99bf81d71a7c843f",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "node_modules/tslib/tslib.es6.mjs",
+          "sha256": "5d83156094f410806be28d6e40a34e68a1fb31e87d0bf8c08a85df2cdae28154",
+          "package": "tslib",
+          "archive_member": "package/tslib.es6.mjs",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/isFunction.ts",
+          "sha256": "912c3fb2775a298f316645f525d57c3738d0572f958cae0d8a1d8413328c2bf4",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/isFunction.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/createErrorClass.ts",
+          "sha256": "5d7a364fe929274051f77a1152aaa4e3697a3160642dcb56c385abe614ba7d91",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/createErrorClass.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/UnsubscriptionError.ts",
+          "sha256": "9501a902ee283375c29e4d676a2b8f9afa9cf2f7d098c4b6163628eeed2db6e0",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/UnsubscriptionError.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/arrRemove.ts",
+          "sha256": "54f59187f112d4f4492126018bdbbebe932ccc082b371ae97e98c5f9fa3cb6dd",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/arrRemove.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/Subscription.ts",
+          "sha256": "7bc29eba0a7ac8331f421d61928fb1455329ce0e075c1454eef3596537640dce",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/Subscription.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/config.ts",
+          "sha256": "f6d4997cee02ef6b43fb3971af71b48700127ca03ebb9cfff10039f778ce6e94",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/config.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/timeoutProvider.ts",
+          "sha256": "acd553ece2285b2d4c0a45794b74a9c1e7e81c264d9c66d94696312dafa5fd92",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/timeoutProvider.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/reportUnhandledError.ts",
+          "sha256": "96c1a4f500270f7413e2fa1d9cd35acc02190d5710c7e0e88175806fcb5892a5",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/reportUnhandledError.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/noop.ts",
+          "sha256": "4fa3043834efad8b07338dd5a9a6737c1e8834377ffd70f6713ef2fca13e8734",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/noop.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/NotificationFactories.ts",
+          "sha256": "0aaf2f515ae3e73938c240576a98c24d60c51ab778f80b8741cd774beb6df2f7",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/NotificationFactories.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/errorContext.ts",
+          "sha256": "b5f2e39566037089886dd1a73e771f202cce6e161169f7816372eeccbfcbe8a9",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/errorContext.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/Subscriber.ts",
+          "sha256": "5add6d2414097e0c442b20fbcf4b50930183f37752c1daf2b68942279d13d72e",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/Subscriber.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/symbol/observable.ts",
+          "sha256": "839d1f3cca258aecba50319ad7167a8c68451829e6d24faa5acb6f411d14177f",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/symbol/observable.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/identity.ts",
+          "sha256": "7a2ce7656d10bea71016d7bbf4db3eec35a0699d9974d7c98e34b7528e917a8e",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/identity.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/pipe.ts",
+          "sha256": "e03eeefc2fb1a351715940606188a293c7101e98798ace6d371ebf9c5a65a61d",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/pipe.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/Observable.ts",
+          "sha256": "b53cad85cf6daf781230b0b5aec3cc96164b80300ae5f249791381ed747a7c0a",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/Observable.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/lift.ts",
+          "sha256": "48581262e69c4f9140f0521d3f8e88cb2358f6371fd00ec99b33b143690e8903",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/lift.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/OperatorSubscriber.ts",
+          "sha256": "e2bf85c3c0f115aa9894e78aaccf0d996890fc22c5d09ee36ad8bf998a455e26",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/OperatorSubscriber.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/animationFrameProvider.ts",
+          "sha256": "db60426a737cb75d51d24649e08f30a865e4d30d61f77ab1892efa8cf51a6bc8",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/animationFrameProvider.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/ObjectUnsubscribedError.ts",
+          "sha256": "4a9add1a98b8ec49293a6bdc643f0a9df02c031345d5c2b0e7e1f3459cae38fe",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/ObjectUnsubscribedError.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/Subject.ts",
+          "sha256": "7c14f62a621eaa6c36dc623379863eccb7b22d93b4f70b5635557eb2da2b80a0",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/Subject.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/BehaviorSubject.ts",
+          "sha256": "6bc744be4205cb8db87af83f0f4bf119e95d4e70ebf3b023fa0a261bd876fcbb",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/BehaviorSubject.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/dateTimestampProvider.ts",
+          "sha256": "fba730354a5a55ba693516a2ba4ccaa91f11bb5a23982c033f3197ebc14117b5",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/dateTimestampProvider.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/ReplaySubject.ts",
+          "sha256": "420f91741909f3888a64e630691da8b8a2abd3e7a0420e54bcc1eed6af680742",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/ReplaySubject.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/Action.ts",
+          "sha256": "62284be6aaa0af2eac68138f9ce18644734f2562367d580e01bd61722c9bb444",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/Action.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/intervalProvider.ts",
+          "sha256": "f1eeb5ac6f566d7545afc5a609bf7b64c57e2f92362a919e3032aa80f3c54b7b",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/intervalProvider.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/AsyncAction.ts",
+          "sha256": "88c2b8b910aade8b9ed67751bce67eb573677cbddc8aef1412dcdf3c7a4edf9f",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/AsyncAction.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/Scheduler.ts",
+          "sha256": "672983d19884bc33b3f015f90d1cb222b312a3cdcff735a273fc7deff811c3d2",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/Scheduler.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/AsyncScheduler.ts",
+          "sha256": "b7555cbe5df0deab46949cb56c87533cb32894dd4fe4d5fd16713d94ef7edc52",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/AsyncScheduler.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/async.ts",
+          "sha256": "b6ba5be6855c346e13f86d830b9fd9dc322108aaed86e45fe85c7dfec747b898",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/async.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/QueueAction.ts",
+          "sha256": "ef44ba4110ac05b34001522738b76a13bbfa27ed324b16f15ffb28a5b7d531bd",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/QueueAction.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/QueueScheduler.ts",
+          "sha256": "7ec9e8c0447764bdbb2fd4fb95d39414e455cf425a92f98642af7b8e8a03221b",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/QueueScheduler.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/queue.ts",
+          "sha256": "37d2d4855dcad0bd41ca949acf1620589825063dc8cc4dfee114f31786486fa9",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/queue.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/AnimationFrameAction.ts",
+          "sha256": "a4c5ecbef385d9e140d84d99212d4241916955d2bf205479ff10b866f8c1004c",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/AnimationFrameAction.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/AnimationFrameScheduler.ts",
+          "sha256": "6654324064c0f550d5002147c733e7bbb50e6a5b46ddce87709dcc3699c8313f",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/AnimationFrameScheduler.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduler/animationFrame.ts",
+          "sha256": "6fc76fc7b7b63a9d91e68b5993d38ba007fece7b1cba223a3083febab1e7ab99",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduler/animationFrame.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/empty.ts",
+          "sha256": "fb22097915375c1473850afbc23b9cdc46fc2df2e1bf3f26f6414d930f128d2d",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/empty.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/isScheduler.ts",
+          "sha256": "b55ab2aa6fb462c9535edfcb70c7b71a74580752e0d34ee5b8f26bdb74310e2d",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/isScheduler.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/args.ts",
+          "sha256": "fa20f23df91889699843f73011e3718b35b73cc1834ac3d5d2708803a8f3e911",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/args.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/isArrayLike.ts",
+          "sha256": "81fd0b7f59ad6b91ab093fced997dd5e9b4b47809c391763ee1981f508e7e118",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/isArrayLike.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/isPromise.ts",
+          "sha256": "b18df90eb52deccb9c7ed33518d701d3d55f55161adc048651a37062587a6784",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/isPromise.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/isInteropObservable.ts",
+          "sha256": "684307338705e9c9d3bf9f600ddf66eab07b127e0e4a3efde10ec538ff6d3897",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/isInteropObservable.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/isAsyncIterable.ts",
+          "sha256": "04d9b3cd7675f6725e489d2a339d16c7e2e88bff05e534992f9900dfa5b2357c",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/isAsyncIterable.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/throwUnobservableError.ts",
+          "sha256": "d53172d827afc3aafcfcf514f0f5be937d90b5fa0ae572995bcec81159647671",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/throwUnobservableError.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/symbol/iterator.ts",
+          "sha256": "781017ad4369700c23dc3581b4591f4fc855a2f36ad718ff6f355c4ff8ee9f84",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/symbol/iterator.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/isIterable.ts",
+          "sha256": "04124df776efb1bc49270020d872e98c3496a003ee31e5ef1506050cdc681bfd",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/isIterable.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/isReadableStreamLike.ts",
+          "sha256": "3dd04958bde7d4b070ade8b149a27e68e8d44c2c8f8dc1e0b24f4ec451f3b49c",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/isReadableStreamLike.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/innerFrom.ts",
+          "sha256": "aa12a76fc06153cf41e411e9e39f9580b7eec634816e7034091115d85a7fa5fc",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/innerFrom.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/executeSchedule.ts",
+          "sha256": "9b79b391b45cec1fc540086a209a4a79de0b4fe3281c2a449b6033cbfbce783d",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/executeSchedule.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/observeOn.ts",
+          "sha256": "87c946b8958b4435e94e735db842517208652369dda42f2be0a02d6220eb4d56",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/observeOn.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/subscribeOn.ts",
+          "sha256": "6bb4dd8fa6c9fd63d215f3f6ed036e2e8f7818fa0b6a4872ea9802bfcfdbecbe",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/subscribeOn.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduled/scheduleObservable.ts",
+          "sha256": "6ce167bf33598d45ae6e160aa13e49b5d96f977cf5c4f8c19e23f8a28d8c6d60",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduled/scheduleObservable.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduled/schedulePromise.ts",
+          "sha256": "eae05fce375740d9c9b60bb17737ea55c26e8e92bfe4f43320ee43986d74eff9",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduled/schedulePromise.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduled/scheduleArray.ts",
+          "sha256": "d6f514fc466f532989bb16970b03ca9f510b1f682f08b1c3cbf300350400c09e",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduled/scheduleArray.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduled/scheduleIterable.ts",
+          "sha256": "e6cd7d9d774ee0373a79053eecb30ba2549b80e679736a8cd879654579865f00",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduled/scheduleIterable.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduled/scheduleAsyncIterable.ts",
+          "sha256": "cc2e915ce422dc12671620a85126bbe14a1deb6c3c7f8d60978fcfff787be4d2",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduled/scheduleAsyncIterable.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduled/scheduleReadableStreamLike.ts",
+          "sha256": "c185c0a847f81ee3f8a14814b8b8b55dd5f006537faaa16d51fea40f273a09df",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduled/scheduleReadableStreamLike.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/scheduled/scheduled.ts",
+          "sha256": "77876a1667d16915a13faff6a2af5752a921cbb903794c1f6f5df115c5542f86",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/scheduled/scheduled.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/from.ts",
+          "sha256": "19113c3b26e425d79b36d4833f76430bec05a2eca26798ac3e8f0e426b2724ad",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/from.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/of.ts",
+          "sha256": "25b492b2d97a557f0c8f58306119cfe6bbf560774ef93ec151a96776a77d6195",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/of.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/throwError.ts",
+          "sha256": "7b614f24e2dc97855aeb91b6984dc84a51ec460134c7ab2dcdb590dca29ab6a9",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/throwError.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/EmptyError.ts",
+          "sha256": "dcb5d2c93743669e14fdf3bab5acdfceff6f06b95cab9b4055e846b5da654fbf",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/EmptyError.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/isDate.ts",
+          "sha256": "f17dc9ff197ff8dc5e2f04ad0d0f12f78c20022ca91f40a4a4abfbbb5630c322",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/isDate.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/map.ts",
+          "sha256": "e77ac02ea85fd9dd0483051e7182df474445217768a41cea6e49232b6e49a096",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/map.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/mapOneOrManyArgs.ts",
+          "sha256": "ad749cb5037c7d4663b1eadfe43748569d5f99264eca879ea893f93bf9b86190",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/mapOneOrManyArgs.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/argsArgArrayOrObject.ts",
+          "sha256": "29caec8bb477573a4c6606ea69589e450d80b599722c6b71337bb895fbd2cfe1",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/argsArgArrayOrObject.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/createObject.ts",
+          "sha256": "8b0cc03c759fabebd1eebd9f03e1f593cc6038280c1aac07fa82750af9841d81",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/createObject.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/combineLatest.ts",
+          "sha256": "8d39206fbdc632548388e54bc1db6c35ad05531cda1ad196fbadcd46a2e6bc09",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/combineLatest.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/mergeInternals.ts",
+          "sha256": "326bc00537e70208b44a0e40e7c559ed7be9bf6107203073ccc6a452a977bc12",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/mergeInternals.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/mergeMap.ts",
+          "sha256": "f19b86bbb5566a5c110e3b77641e1feedcf95dc18e49698979f355f9bdc38301",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/mergeMap.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/mergeAll.ts",
+          "sha256": "18218bc5d2b300e76f4b6807050eec5754971d27ff18a20dd639e567c68efc92",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/mergeAll.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/concatAll.ts",
+          "sha256": "a1819c493282f229507fd7b1b831c97447edabd5f09dc914b357253be12486b7",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/concatAll.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/concat.ts",
+          "sha256": "88fc14bb0eee3a7902a94d9655703f561039929abdbed29b17fb17145ddb09b0",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/concat.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/defer.ts",
+          "sha256": "690c66e8ec58bde20775e9c81b3fd2de3c2118a4ebda343dfadd28ca889dca84",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/defer.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/fromEvent.ts",
+          "sha256": "3e09408ae4a597ed7e01d6b0239689eb90d0d9c903fa31df67e8d362844ec7dc",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/fromEvent.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/fromEventPattern.ts",
+          "sha256": "fd8f0499160361bb1c79cc89e98950c639cf7293c5279ab13a445a30c475c343",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/fromEventPattern.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/timer.ts",
+          "sha256": "039f3645a2889298ed4da817367c54e71ef15afc7b4198c777fe90cb3638152b",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/timer.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/merge.ts",
+          "sha256": "bc1cc6d0cc5ebc02c8e70145cc4e76d4bcc46081b68caa0ca2032fd5ceda49da",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/merge.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/never.ts",
+          "sha256": "c342558f678dc8b95fc69a9e80b87594e63ee75b5fd09b7e2a4d61cae6082671",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/never.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/util/argsOrArgArray.ts",
+          "sha256": "eb8c6d1efcc15534da65896edeb3a4382445fefc768e02b11b9d059eb36ce0ca",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/util/argsOrArgArray.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/filter.ts",
+          "sha256": "40d681723430d568fe98ecc51960c0fec1dc4acd2c377fce39a61571ae9528be",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/filter.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/observable/zip.ts",
+          "sha256": "73b534c3e17361b38609acbfb78d492f74f0830ccf081e29742a01ebcbba6492",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/observable/zip.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/audit.ts",
+          "sha256": "55287c6fbffb9397743f44123211e17f2415f852e88883c34d70f03dd54a3397",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/audit.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/auditTime.ts",
+          "sha256": "5563596efa23a7aca02256b9c05191c0259438c76c9194804c114de4daa87578",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/auditTime.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/bufferCount.ts",
+          "sha256": "049f3f3d9e3abb6d40589451f9d515bf2dec4ccd3269194c3f45afd570be83a2",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/bufferCount.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/catchError.ts",
+          "sha256": "0b25e06f414efdd78b5a7c39afa299e28c31b51baea485fb5b7226849ea50344",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/catchError.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/scanInternals.ts",
+          "sha256": "1eb13cc05b02e76560177ada11b3a23dda4d4cec418bbc8ca0441c6a80e34b0a",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/scanInternals.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/combineLatest.ts",
+          "sha256": "bbe5159c7df49f31e310ea8df145f696795502b56d465de40c0c7a9c41e3b091",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/combineLatest.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/combineLatestWith.ts",
+          "sha256": "6304fcf68f2a224ae84e1c4e26ff29e7e42eefd9ba1240cf780b957d3c025072",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/combineLatestWith.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/debounce.ts",
+          "sha256": "6e1878f8a054497aab2bdf274f08375550808d874cf018a543e9593e8d0b2850",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/debounce.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/debounceTime.ts",
+          "sha256": "ddd58b375988eef3581ee23415dfc03c04acb8b94fe6f78150925873a5641b23",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/debounceTime.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/defaultIfEmpty.ts",
+          "sha256": "0eecbadaa58c96f6dd74491b813bb02041cf4d2761770f04557d5346525e4329",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/defaultIfEmpty.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/take.ts",
+          "sha256": "f73f87f11b722e41ccf883b60dd96176a247c42d6b5fbf3047f784b0b3339c45",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/take.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/ignoreElements.ts",
+          "sha256": "8a24ba1e9592defb030a4deb765af5f3a26e727e09e8f553a9d9514b39e3a114",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/ignoreElements.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/mapTo.ts",
+          "sha256": "4aa614033a02426c72e4ff7090a828902e7c3b69edf69791b0d2c55acb99b5fa",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/mapTo.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/delayWhen.ts",
+          "sha256": "58f35dd57713720ba6b1ad3ed0873dc25c723cda06cfe5769688cdfed80ae741",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/delayWhen.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/delay.ts",
+          "sha256": "45d8ae58958f08a1941a13482c5b5271036537dd2be796652bbaaf29483e77c1",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/delay.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/distinct.ts",
+          "sha256": "7428f108feabc6988a306d1941256b5d0c9e046bea8c972d561beaf21497d31f",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/distinct.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/distinctUntilChanged.ts",
+          "sha256": "540aaccc5cb69b3a84972a70b87de50ed7b4fe96424306f9c773a30ac7a5bfcb",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/distinctUntilChanged.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/distinctUntilKeyChanged.ts",
+          "sha256": "b93fddbc841f23fbacec9d0b463422b83f9ba2e718fc332b7f3134abb9ca3f52",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/distinctUntilKeyChanged.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/throwIfEmpty.ts",
+          "sha256": "1aa0f403c84debbcc2a375bda9dd34d0cd9e0fc8469f74449d0dbf30bea82b51",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/throwIfEmpty.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/endWith.ts",
+          "sha256": "655f6b4c065dc606cb8f4881617140b55e9e933c606ce07f3a154388f2122fc3",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/endWith.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/exhaustMap.ts",
+          "sha256": "52c6618dc93ac97fbbeb9724ab1ebbff8caa5acb4caf5471c3b71bf15a9da4ec",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/exhaustMap.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/finalize.ts",
+          "sha256": "82adefb0c60909b50f0b5a86c3b09495c4cb6c7cd8313a8c17ded72d2989a3e2",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/finalize.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/first.ts",
+          "sha256": "ba2894c9917ac681469139cb3a232368cf7bdf3fdafafec6a9fb79e0eff29c54",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/first.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/takeLast.ts",
+          "sha256": "d63b7c6fbb3c9d05d46b8e0250ae811995f50f2d5d37eaa1173f3d389d28339f",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/takeLast.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/merge.ts",
+          "sha256": "003c9b557d99e7556f03af87f2e1d0d0ad9c78df3195cd4503fe8a9ca6e1ce22",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/merge.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/mergeWith.ts",
+          "sha256": "4bd7523bebf8fa934cf718f86acf7a0fa91e25c672f313a87bef71b797643ddf",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/mergeWith.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/repeat.ts",
+          "sha256": "7902f5489991bc22ae8a56d0d4215c8fde0ff6e04108aa90dd3f39d9e33e2a96",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/repeat.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/scan.ts",
+          "sha256": "21c6f94ad73afae614ac3d7c196b492dee7d993d218e290837171021d7b5ca64",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/scan.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/share.ts",
+          "sha256": "2b251fee5afdf83db84fde033bbf1ed8cc3dfe46be70fe4165318dce91947ed1",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/share.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/shareReplay.ts",
+          "sha256": "b640e8f0044545e62a0721a119ac940f57b63f82c5403fcad50587382751b3fe",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/shareReplay.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/skip.ts",
+          "sha256": "dcf09f12faed7b051f0a64ca9835307d755969038c609e2868a37a99e8946a91",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/skip.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/skipUntil.ts",
+          "sha256": "8831dfaf78e9491a3f44ccc9d94f45f843671ac3f5af66281b569560b0937227",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/skipUntil.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/startWith.ts",
+          "sha256": "342d9767c5499494bf7000ca46ada77ed0e5d9b21508d60b6412ca641e57e162",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/startWith.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/switchMap.ts",
+          "sha256": "4bfef21c0edc5cf09d5d3b992ce65d72d39dafba2f4cf9f02937dc03a551c87f",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/switchMap.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/takeUntil.ts",
+          "sha256": "89261b6d66a8b451481f7c17c802750c61506b1b4e1f6a3971001ffbf484c66a",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/takeUntil.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/takeWhile.ts",
+          "sha256": "bc341736c62340032588d6aaf7bbc4612a7440d38d0d449c9e13adcfd59e23c3",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/takeWhile.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/tap.ts",
+          "sha256": "444d7ec4132d252d452cadefe1242fa0624808bb32818f7432b019a4f8674e95",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/tap.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/throttle.ts",
+          "sha256": "eaa042f6e502ed4c33c23fab55c4b17ef7fa1893b88c42147ec06e45d2b80f16",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/throttle.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/throttleTime.ts",
+          "sha256": "5c7f95b57b471b07ce944f991cd0e5369e88c08cef9ae5447c823afa97e45aef",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/throttleTime.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/withLatestFrom.ts",
+          "sha256": "3436052c45fc182be431007e2a22969f4a370ccd4c130d628910577d65e827e0",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/withLatestFrom.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/zip.ts",
+          "sha256": "b495ea5972acd04b09bfdf18a4c1bc0bfa1a87953e93a7c68fa9e2d7dbd49cd5",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/zip.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "node_modules/rxjs/src/internal/operators/zipWith.ts",
+          "sha256": "715f97dbf80650fc0cfb8fe6143c9f3bf713ceb64255450955f7b167b6ab97c1",
+          "package": "rxjs",
+          "archive_member": "package/src/internal/operators/zipWith.ts",
+          "byte_exact": true
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/document/index.ts",
+          "sha256": "9016d727bee17702f03f787d5a437beca61d4ca39be5e0dbb2fde61f3d98edab",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/element/_/index.ts",
+          "sha256": "17f76ae83f158d5347985674927b7a049bcac1c39e5fc4274139788db2b2be30",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/element/focus/index.ts",
+          "sha256": "3faf8055ac5c3c3a3c357c1f56f9ca9073e34aaa90845acbcae7a1a480373d63",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/element/hover/index.ts",
+          "sha256": "b9c3891c6ddd70e64cb0ae3aace1f1cccaba3aee9c4dfb3a03b2cd2ff6372342",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/utilities/h/index.ts",
+          "sha256": "6ec021db2ecacfac1a602fd2b6a4f21b6e2f553fdb1788e2e2f5189b2877f2a1",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/utilities/round/index.ts",
+          "sha256": "f3ab7b0a0b8602428e6ecab7e3c4b5679e17c075e02d6769d188160f9fd10795",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/script/index.ts",
+          "sha256": "80211e1e40ae9dbcd76c6810f54d352c03147df0bd0e93afe3603722d3acb3d6",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/element/size/_/index.ts",
+          "sha256": "557a897cb495342da29a24ff46fc3ecae25322c5c68316aadf697318256579d7",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/element/size/content/index.ts",
+          "sha256": "4df2f5d13b5a89eff84d86895d57a223f292595afaef82d532bb27239b75c001",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/element/offset/_/index.ts",
+          "sha256": "3dea9073cd0c6bd73813ff74b46d539b35cec6da97227088a277f4b38b1253c9",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/element/offset/content/index.ts",
+          "sha256": "9c91016f2df5aa83a4d138e887bafadd92d2147e6f9812db9cc2bc5d8d01b92a",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/element/visibility/index.ts",
+          "sha256": "734773d7bba3eaf3caa558bec5116685af2160fe3fd00ff515ae8915642e2b12",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/toggle/index.ts",
+          "sha256": "1c9b8844d7d754eacf612445702927f983d6316c795ceaedf7d4e01d0a53ccdd",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/keyboard/index.ts",
+          "sha256": "4ad66eb8a4e039343ca05ef27377609de85b0b5fecbfa95d6b725f00a27fae46",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/location/_/index.ts",
+          "sha256": "67ee7ede84348748ad6c64745381f20475d2574582301cb6a01c71958558962e",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/location/hash/index.ts",
+          "sha256": "11877fea10bb005805bab55ccc088e6635335915d47226be65e4e0f68c5d3ecd",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/media/index.ts",
+          "sha256": "165a8843883ed4c4a203310e6ea401f36c7fd5168779bf5d81e56f44070dac69",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/request/index.ts",
+          "sha256": "8ebddb8927e06d7347f86dac571da9f20fe1bf40e4b909d3be3f1b730ef19d6f",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/viewport/offset/index.ts",
+          "sha256": "a009ebe1da56513d9944ccb620a2c039770ac55b893f45e048524856ae73ee0c",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/viewport/size/index.ts",
+          "sha256": "b444b70fbc460fd7e0029e270c6a7c511edf825080662858ce8b077d590ffb6a",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/viewport/_/index.ts",
+          "sha256": "2be21ee4bf3664058b167a756217a4de965dbe3be481dcaced74ceef650c2b44",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/viewport/at/index.ts",
+          "sha256": "00a87434d36d19d763c3e8782d33b96b5ee6d9e6a818ad4e3dad8c14701a39b1",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/worker/index.ts",
+          "sha256": "22224ec6d1d1745e1be9589a73f740d4d20238b8a825864d655d7c22069fe973",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/_/index.ts",
+          "sha256": "640010b947ed9036cefd257b1e713a7e99d5841c70f168aaf17e42bc75f413c3",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/_/index.ts",
+          "sha256": "252cd0fb4b1b83f79190f598b6ae1a305bea38045102601f08eec26c4bfe7bff",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/announce/index.ts",
+          "sha256": "b60faf1e09da8beb2830cfa7fd6dc99694d25e72347621e802e648c1467d62ea",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/consent/index.ts",
+          "sha256": "a3523c1a4a60b356a558e3b18b62541b1af4464466fc77bae8512e78960ce7fb",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/templates/tooltip/index.tsx",
+          "sha256": "4a6b6c4c4828d75995e57173e0578b0bb1e14792c1ac5ecd82e6e44a5dc60ac8",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/templates/annotation/index.tsx",
+          "sha256": "c424f235ac8518013fd786aba128aefef2d63939634e50cca38a103341332cd5",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/templates/clipboard/index.tsx",
+          "sha256": "587741abd9fdfdd4c9a96d0db7dabca734d97f5a75ca0f2ce0e01820c52dbdc0",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/templates/search/index.tsx",
+          "sha256": "5f4c319217587adb8cc8460839be5382e9791065168458ffa5ff0294746f1edc",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/templates/source/index.tsx",
+          "sha256": "dba905cbc9ecb980c870a579fe8388af4471badc6c65a626ee5e52b58ee2b03c",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/templates/tabbed/index.tsx",
+          "sha256": "a96e20ae4971c1f255b01a6dbe7dfdf467d06921ac8d81097b7ddae5a35fe608",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/templates/table/index.tsx",
+          "sha256": "23f2f93f54c3453916311420a39d7329f6cb76af872114f694fa316fc5970d8a",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/templates/version/index.tsx",
+          "sha256": "6f5dbb4eb134647cd577377f7932643f2d08f9038292d00783bc0f365fc8dfb5",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/tooltip2/index.ts",
+          "sha256": "278c2540a1b871b0dc874c2826598e1dcf23770121e06134f769f7729cb98fea",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/content/annotation/_/index.ts",
+          "sha256": "f3df3e78ec38c39b86f3638f9edfd309fc38a8982de84d7fdd4c2b0ddf358678",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/content/annotation/list/index.ts",
+          "sha256": "aed5eb21f658ff77f6d1d96fa64f3d27b953b255ca61a1b7ca56e146f0af9ce2",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/content/annotation/block/index.ts",
+          "sha256": "02d9efe73115a323cc592ff64b74c0ba2216c903c3acf69efdc9d10e28fd19f4",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/content/code/_/index.ts",
+          "sha256": "a957a55992c6a3aceeee536689f5cd304ab89054a8bf06c561ba914353ee7b54",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/content/details/index.ts",
+          "sha256": "f59ac1d2b4a3f1f0700a2b39ed5c10b7f323ce42bc25ac9219e6cfcf98b79d7e",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/content/link/index.ts",
+          "sha256": "89795196bf2d108edcbaed1d57af2fc8767cc2dc7931bcee81c819b72936fc62",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/content/mermaid/index.css",
+          "sha256": "a1837d0d74af14834af467e3d06174bf91812925628f49c7d618fe86af724c74",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/content/mermaid/index.ts",
+          "sha256": "d5d4ef761c95b425aadf56e65b3b4e7cbf1be75426cc563bce11d783cd97f346",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/content/table/index.ts",
+          "sha256": "3f39f4d7a112aa0be73582bfb761b5431f87781186908f9105e6f5bfa6699b77",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/content/tabs/index.ts",
+          "sha256": "6b532889240a15481e39e27b9f6f5d6074ad4bbcac03f1d8f9f65b5321f96489",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/content/_/index.ts",
+          "sha256": "588cb772f9ac8cc1ace7d1f70c4b8549fa2cf6045cf8bfca6d655d685f795cb1",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/dialog/index.ts",
+          "sha256": "020f3c81bf5fd7a26879949cc6c10c7172c77e0c97553bc6a1fdd26de1613918",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/tooltip/index.ts",
+          "sha256": "24050e88ceacd257e14bab2d02bcb5c11616f916868428e83c10b46fb4a6f736",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/header/_/index.ts",
+          "sha256": "8406e975eb5e75d6999b2801c418e427f6b79611e7026ee4ae4b44fadfa983ea",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/header/title/index.ts",
+          "sha256": "aeeb6f2d05e73b6d48ea029cc2b23b94f08315d28ef60b9d5d6ef428cfd2986d",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/main/index.ts",
+          "sha256": "fd58da55c180d455e32866f3b4cef317d9855a8f280cd5cf4eb5942892e1bc37",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/palette/index.ts",
+          "sha256": "f5a6bb371a8177cffa2e0a731ca7ad4c0c0875af1062679cb59b7ac3b6cddfc7",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/progress/index.ts",
+          "sha256": "4efbcd684c4d3f23fc7526afc40381f6d26e3b991df560664c306ff5237056ff",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/sitemap/index.ts",
+          "sha256": "c8e8e5778ac918f8bfbd3074dfb70b3a7a24753445a3b1c5d655045c3616cf1d",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/alternate/index.ts",
+          "sha256": "22adf976949cba974ff3856a5c8232e3c63c8faf066ce1367711c71bd3d94539",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/clipboard/index.ts",
+          "sha256": "8f25873ce45f288ff3fdb616edbe17cb2a02a585153d80044ca95202bcdea73d",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/instant/index.ts",
+          "sha256": "3acc3103859a08183bda1779f70f0470b1937a8ad8afb2ffd1b1e135d863e687",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/highlighter/index.ts",
+          "sha256": "98088c7aa85f01f8df3cdbec15250c91624dc4a8480348c8f2cb4b7cd009818d",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/worker/message/index.ts",
+          "sha256": "d5b7ac95b6875d396cd0d0d65a26106aadbe60a819d14ac2c0c2dac71292875f",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/worker/_/index.ts",
+          "sha256": "9261d64b0383b3cf39d14bf363f594fff1cb3e8acc96dfeac4719bd332e3aa9f",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/version/findurl/index.ts",
+          "sha256": "6efef7f550cdc39e60ca0d75a1862b2283a27bd4399a3b89bac73667f7d37b59",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/version/index.ts",
+          "sha256": "5584faface796448f913176d10d557a58dda88b5bce8d267e934b99d9dfba967",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/search/query/index.ts",
+          "sha256": "f6b3f706cbd705529b52230072f2448ea551557b66c49d6f21695b2d9a745502",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/search/result/index.ts",
+          "sha256": "dd95b6bf5e8868aaf472f2cf43ede1ab93b9d70d3fe542b4d0f13eab70f9b82f",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/search/share/index.ts",
+          "sha256": "5ebd77ad04ac163508e4bf2d5d7e2f25c15dd7bbc75dfca44f3deba9e7fda165",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/search/suggest/index.ts",
+          "sha256": "d024e4d76cab77c744ec7ac0ce40b4e94971962a6890cbc3c8fcf7c5b98dbb40",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/search/_/index.ts",
+          "sha256": "b523557c8d5f5e51a15d21f3039fe996f01f45a3038c20e0f703eb44e88f76b2",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/search/highlight/index.ts",
+          "sha256": "1e8d25da433a220baedb6b22edbbfbf0ac1c24362b18823a0678e61da8b9198e",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/sidebar/index.ts",
+          "sha256": "5590e91d33cb5ebbbe221c1cc59850f76971930152c4be5063f9b05acffd05ef",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/source/facts/github/index.ts",
+          "sha256": "f9af800040a35bb0fc193ba939271ef92e54642d14cfe8c3947028d94be251fa",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/source/facts/gitlab/index.ts",
+          "sha256": "c6a0aaf50799c67ba4a5aa155fb3327f74466c8f3b9c3b700560675da9f2d3b0",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/source/facts/_/index.ts",
+          "sha256": "a7ac7c0190c5989f6bdaabe1d8ffdcf0ea05388c7947aacc009cba9592b6a8d7",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/source/_/index.ts",
+          "sha256": "cd37249438daf1b94e013d0705b57cde518cbeeb57c8eef71204c4ed1931fed7",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/tabs/index.ts",
+          "sha256": "f19a292952cf388c6b8e6a833a0dbbba4b0611e9e9a44604ac0668e0959fa78f",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/toc/index.ts",
+          "sha256": "550b9154024debf7396eb8333d72c1469597406eded6e0aae6b058588ad9ba9a",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/components/top/index.ts",
+          "sha256": "6259eaa940faa26fd0acca6323ea2552069046a60b93b3a56e4434a2714ebe81",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/patches/ellipsis/index.ts",
+          "sha256": "314998007692c7373e5eb71423be50aae807ce315c7634f35aedafa659f6d87a",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/patches/indeterminate/index.ts",
+          "sha256": "8312ccf43c6e6446a0f33bf1ca6aaf3be12036d3f3937ed91fe4d3a098c5f8b8",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/patches/scrollfix/index.ts",
+          "sha256": "0a325cc48600d58d377efcfbc46aefa5ebf51af70a90f264df2d5d14258a1b10",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/patches/scrolllock/index.ts",
+          "sha256": "a3d1acbf4573b2b64d182fe209bcdef45cd2b50984d8d7fab4cc683990d79a20",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/polyfills/index.ts",
+          "sha256": "ee5b53b624494b869778ee7e8c4576aa42667a191a847c4354def4c0c41664db",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        }
+      ]
+    },
+    {
+      "path": "assets/javascripts/workers/search.2c215733.min.js.map",
+      "sha256": "780dccece24891aa19da6285715e2c7d0cd884237a87a3a9be6684823584921f",
+      "sources_count": 13,
+      "sources": [
+        {
+          "source": "node_modules/lunr/lunr.js",
+          "sha256": "9431726f05c0eae2a6e54dc197709422869f25cad44f2430d2fb7ddae80cc717",
+          "package": "lunr",
+          "archive_member": "package/lunr.js",
+          "byte_exact": true
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/worker/main/index.ts",
+          "sha256": "59e1cbdda8f1cfdcd5d422b3c36bebfe992c16d35474eeb527cc81dc0f5b3ae6",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/browser/element/_/index.ts",
+          "sha256": "17f76ae83f158d5347985674927b7a049bcac1c39e5fc4274139788db2b2be30",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/polyfills/index.ts",
+          "sha256": "ee5b53b624494b869778ee7e8c4576aa42667a191a847c4354def4c0c41664db",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/config/index.ts",
+          "sha256": "3b3e6188fc673742b76c19f88dba1357ce559fcffae05b736d0de0f5601d5616",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/internal/_/index.ts",
+          "sha256": "76b064589cb37a1eddf308dfb3b2af18c6dab000619a93955a34de14bdbf8117",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/internal/extract/index.ts",
+          "sha256": "df029facc6dce48e34735e43bc20ac601d464c89f69e7650f358415ff287cbd4",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/internal/highlight/index.ts",
+          "sha256": "b0e5e8dff2debe5b4590c2cc0a700d9ea7d8d2ae56ea151ade244fb42a7b2a6b",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/internal/tokenize/index.ts",
+          "sha256": "b8ae43fdd6791270a74badc5a6d0fca7da0875dd4117654c60d404e2836087d2",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/query/transform/index.ts",
+          "sha256": "01f3628ac0c0f88a8d64542ba5ccdfea5431cb3c13ce390556f194541ce25f1d",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/query/_/index.ts",
+          "sha256": "d938932c8692d12ca1eb2caa50727f0f5ce3e1c4fe3386fc9d5f107d09bc0671",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/query/segment/index.ts",
+          "sha256": "f2369b3768c9499a1402a4f69874dc3aad0b0e0e3100a0230324993cb553659f",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        },
+        {
+          "source": "src/templates/assets/javascripts/integrations/search/_/index.ts",
+          "sha256": "326e637901bfff8ed1eebd491dec2f1fec9a6357fd7c992c81c741b0c30a22bd",
+          "source_scope": "MaterialX preferred source, supplied inside unchanged source map with original headers"
+        }
+      ]
+    },
+    {
+      "path": "assets/stylesheets/main.5cda52a2.min.css.map",
+      "sha256": "ff69edf48068358e8e1365d679688cff2fafd5ba22a6d5028b36aca77b25732d",
+      "sources_count": 51,
+      "sources": [
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_meta.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "../../../../src/templates/assets/stylesheets/main.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/_resets.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/_colors.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/_icons.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/_typeset.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/utilities/_break.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_author.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_banner.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_base.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_clipboard.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_code.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_consent.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_content.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_dialog.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_feedback.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_footer.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_form.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_header.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "node_modules/material-design-color/material-color.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_nav.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_pagination.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_path.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_post.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_progress.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_search.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_select.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_sidebar.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_source.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_status.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_tabs.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_tag.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_tooltip.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_tooltip2.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_top.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/components/_version.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/extensions/markdown/_admonition.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/extensions/markdown/_footnotes.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/extensions/markdown/_toc.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/extensions/pymdownx/_arithmatex.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/extensions/pymdownx/_critic.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/extensions/pymdownx/_details.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/extensions/pymdownx/_emoji.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/extensions/pymdownx/_highlight.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/extensions/pymdownx/_keys.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/extensions/pymdownx/_tabbed.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/extensions/pymdownx/_tasklist.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/integrations/_giscus.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/integrations/_mermaid.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/modifiers/_grid.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/main/modifiers/_inline.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        }
+      ]
+    },
+    {
+      "path": "assets/stylesheets/palette.d7242098.min.css.map",
+      "sha256": "8caba988f360ae9f72bdffd2c8b7af78ecff2045491e7470b331d135bf58f4ff",
+      "sources_count": 5,
+      "sources": [
+        {
+          "source": "src/templates/assets/stylesheets/palette/_scheme.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "../../../../src/templates/assets/stylesheets/palette.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/palette/_accent.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/palette/_primary.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        },
+        {
+          "source": "src/templates/assets/stylesheets/utilities/_break.scss",
+          "sha256": null,
+          "source_scope": "CSS map source-name reference only; no sourcesContent bytes are embedded"
+        }
+      ]
+    }
+  ],
+  "icons": {
+    "families": [
+      "Material Design Icons7.4.47",
+      "Font Awesome Free7.1.0",
+      "Octicons19.25.0",
+      "Lucide1.11.0"
+    ],
+    "path_tuple_scope": {
+      "observed": 45,
+      "exact_installed_matches": 43,
+      "optimized_css_refs": {
+        "lucide/focus.svg": "--md-code-select-icon",
+        "lucide/download.svg": "--md-code-download-icon"
+      }
+    },
+    "source_url": "https://github.com/jaywhj/mkdocs-materialx/blob/c088af2faa3a75dd4b9cded468eca285b6775d71/src/templates/assets/stylesheets/main/components/_code.scss",
+    "source_sha256": "a91265790a0f86367b44e4acda243f5f3d75795a01d53bb9a2cd91c4b24f85ca",
+    "limit": "Path-bearing SVG d tuples only, not all geometry. Two optimized CSS tuples use exact pinned SCSS Lucide focus/download references; no byte-identical geometry claim for these two."
+  },
+  "external_services": {
+    "fltheme26": "HTTPS includes use the external FontLab service; its implementation bytes are not copied into this payload. Retained notices do not freeze later service responses.",
+    "Adobe_Fonts": "The existing https://use.typekit.net/gav0zux.css stylesheet is an external Adobe Fonts service; theme.font is false. No local font binary is redistributed and later external responses are not frozen."
+  },
+  "language_helpers": "The exact34 lunr-languages1.14.0 assets, including Wordcut/TinySegmenter, are omitted under the guarded English-only manifest, not relicensed or represented as shipped.",
+  "publisher_source": {
+    "tag": "10.1.5",
+    "commit": "c088af2faa3a75dd4b9cded468eca285b6775d71",
+    "package_json_sdist_exact": true,
+    "lock_root_label": "10.1.4",
+    "scope": "The observed stale root label is retained; exact dependency versions/integrities and all actual source-map/vendor bytes are verified separately."
+  }
+}

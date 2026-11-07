@@ -46,7 +46,7 @@ cli()
             result = subprocess.run(['sh', str(root / 'src_docs/build.sh')], env=env, text=True, capture_output=True, check=False)
             self.assertEqual(result.returncode, 0, result.stderr)
             first = {str(p.relative_to(root / 'docs')): hashlib.sha256(p.read_bytes()).hexdigest() for p in (root / 'docs').rglob('*') if p.is_file()}
-            self.assertEqual(len(first), 56)
+            self.assertEqual(len(first), 50)
             self.assertIn(datetime.fromtimestamp(int(epoch), UTC).strftime('%Y-%m-%d'), (root / 'docs/sitemap.xml').read_text())
             env.update(GIT_AUTHOR_DATE='2026-11-07T00:00:01Z', GIT_COMMITTER_DATE='2026-11-07T00:00:01Z')
             subprocess.run(git + ['add', 'docs'], env=env, check=True, capture_output=True)

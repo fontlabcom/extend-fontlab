@@ -2,6 +2,13 @@
 this_file: CHANGELOG.md
 ---
 
+## 2026-11-10 — Qualification repair integrated; live-byte gate retained
+
+- [Code b793dfe](https://github.com/fontlabcom/extend-fontlab/commit/b793dfe8147b399e5197b531a2176d147e2c8177) is independently accepted at six-path source/main/recovery scope. Both [Documentation jobs](https://github.com/fontlabcom/extend-fontlab/actions/runs/42829099020) pass 37 tests, source epoch and immutable parity.
+- Independent finite review accepts [Pages' three successful jobs](https://github.com/fontlabcom/extend-fontlab/actions/runs/42829097619), the 50-file body/OID/archive-mode match and current-source 4212-byte download. Neither the script nor an installation protocol was executed.
+- Keep the sole 51-request Cloudflare 403/1010 failure, initial consent failure/single continuation and all unmet inherited highlight-URL literals. Four narrower canonical/light/focus/mobile observations and eight planned screenshots do not establish strict bytes/not-found or full publication acceptance.
+- Remove only verified source integration. Keep theme/all routes/search/download/live tasks open; no collector replay, new normalizer, security-rule change, source defect or native/cohort acceptance is inferred.
+
 ## 2026-11-10 — Qualify immutable docs output locally
 
 - Require the declared output at HEAD, an exact sole source parent for a nonempty docs-only generated child, and the source commit's build epoch. Check parity against HEAD and include ignored untracked docs files.

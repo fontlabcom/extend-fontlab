@@ -16,10 +16,12 @@ Keep shared browser behavior in the shared theme project. Preserve existing down
 Keep implementation, offline verification, native acceptance and delivery as
 separate milestones. Record verified scope in CHANGELOG and current checks in WORK.
 
-3. Independently review the measured local checks and final combined Issue 233
-   source, then analyze graph changes. Reconcile fresh teammate/upstream changes
-   semantically and integrate with normal hooks. Verify the actual remote main
-   source, both exact-source CI jobs, source epoch, generated lineage and parity;
-   qualify the applicable conditional Pages request and deployed/live bytes
-   separately. Retain source/output SHA evidence and the Pages API's latest-default
-   race limitation.
+3. Qualify remaining strict public entity-byte/not-found scope while preserving
+   the recorded Cloudflare failure, consent continuation and unmet highlight-URL
+   literals. Retain the independently accepted narrower canonical/light/focus/mobile
+   observations; do not infer a source/provider cause or add a normalizer/security
+   workaround. Keep all-site routes/search/download/live acceptance open. Deliver
+   the factual Markdown successor through review, fresh graph/main guards and
+   applicable normal CI, referencing the qualified code milestone rather than a
+   recursive own-SHA note. For later affected publication retain source/output
+   lineage/epoch/parity, the conditional Pages route and its latest-default race.

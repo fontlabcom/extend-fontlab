@@ -2,6 +2,16 @@
 this_file: WORK.md
 ---
 
+## 2026-11-10 — Main correction delivered; strict public bytes remain open
+
+[Code milestone b793dfe](https://github.com/fontlabcom/extend-fontlab/commit/b793dfe8147b399e5197b531a2176d147e2c8177) is independently accepted with its six reviewed paths, ordinary sole-parent/nonforce delivery and complete 115-file source/ref-bundle/archive/extraction recovery. Effective hook absence is absence, not hook PASS; source/ordinary/native/owner contracts remain distinct.
+
+[Documentation 42829099020](https://github.com/fontlabcom/extend-fontlab/actions/runs/42829099020) passes both 37-test jobs (3.470 s/3.201 s), SOURCE=OUTPUT=b793dfe, epoch 1794318459, lineage and HEAD/all-untracked parity. The conditional explicit request is skipped as intended. [Pages 42829097619](https://github.com/fontlabcom/extend-fontlab/actions/runs/42829097619) has three successful jobs. Independent finite public review accepts artifact 13770841009's 50 current bodies/Git OIDs/0644 modes, plus the existing 4212-byte fix download matching its source blob without execution or installation.
+
+The only 51-request direct HTTP pass returns 51 Cloudflare 403/error-1010 responses, including the expected missing route; full byte/not-found acceptance stays open. Independent review accepts only narrower four-case canonical search/navigation, light, Escape-focus and mobile-close observations after visible Reject All in owned profiles. Preserve the initial consent-blocked search failure/single continuation, eight planned screenshots plus one diagnostic, and all four unmet inherited `?h=` expectations. This is not pristine frozen-URL or full publication PASS. Cause is UNKNOWN, not a measured source/version/provider bug.
+
+No extra browser-body pass is proposed: decoded entities/default encoding cannot silently pass the unchanged identity/header oracle or inherit old Cloudflare exceptions. No retry, UA/proxy/security rewrite, theme/source change or native/install protocol follows. These notes record the qualified code milestone; combined theme/routes/search/download/live tasks remain open, and later factual Markdown delivery requires its ordinary gates without an own-SHA note loop.
+
 ## 2026-11-10 — Local immutable-output qualification correction
 
 The qualification job now fetches two commits and verifies that HEAD is the declared output. A generated output must have the declared source as its sole parent and a nonempty docs-only delta; the source commit time must equal the build epoch. Rebuild parity compares against HEAD and checks all untracked docs files, including ignored files. Existing publisher race guards, builders, action pins and publication conditions are unchanged.

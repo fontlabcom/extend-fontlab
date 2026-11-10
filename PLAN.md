@@ -16,7 +16,10 @@ Keep shared browser behavior in the shared theme project. Preserve existing down
 Keep implementation, offline verification, native acceptance and delivery as
 separate milestones. Record verified scope in CHANGELOG and current checks in WORK.
 
-3. Independently review the exact Issue 233 candidate, then integrate with normal
-   hooks and verify actual main-triggered Actions, generated commit, Pages request
-   and deployed/live bytes. Retain source/output SHA evidence and the Pages API's
-   latest-default race limitation.
+3. Independently review the measured local checks and final combined Issue 233
+   source, then analyze graph changes. Reconcile fresh teammate/upstream changes
+   semantically and integrate with normal hooks. Verify the actual remote main
+   source, both exact-source CI jobs, source epoch, generated lineage and parity;
+   qualify the applicable conditional Pages request and deployed/live bytes
+   separately. Retain source/output SHA evidence and the Pages API's latest-default
+   race limitation.

@@ -2,6 +2,18 @@
 this_file: WORK.md
 ---
 
+## 2026-11-10 — Local immutable-output qualification correction
+
+The qualification job now fetches two commits and verifies that HEAD is the declared output. A generated output must have the declared source as its sole parent and a nonempty docs-only delta; the source commit time must equal the build epoch. Rebuild parity compares against HEAD and checks all untracked docs files, including ignored files. Existing publisher race guards, builders, action pins and publication conditions are unchanged.
+
+Owned Git fixtures first produced eight intended assertion failures per repository against the old validation. The same ten scenarios per repository now accept the two valid states and reject all eight invalid states: staged docs drift, ignored extras, wrong output, wrong parent, multiple parents, non-doc changes, an empty generated child and a wrong epoch. Across both repositories these are 20 scenarios, not additional cases for each rerun. Fixture HEAD, logical index and complete worktree preservation checks passed.
+
+The owned locked environment contains 31 distributions from 32 lock entries; the virtual site project is not installed. ProperDocs 1.6.7, MaterialX 10.1.5 and pymdown-extensions 12.1 match the lock. All 18,976 installed RECORD rows and 18,945 hashes were checked. Existing read-only runtimes remained unchanged; this environment is the docs build/test cohort, not a FontLab runtime or native acceptance.
+
+The strict `bash build.sh` wrapper passed in 0.26 s and preserved all 50 generated files. The first unrestricted docs suite passed all 37 tests in 8.842 s, with no errors or skips; its ten qualification scenarios include both valid states and all eight rejected states. Ruff on the changed test module and actionlint passed. The fixture subprocess explicitly uses `check=False` to inspect adverse return codes; assertions and fixture behavior are unchanged by that lint correction. The owned source index remained unchanged.
+
+Independent final combined-source review, graph change analysis, fresh teammate/upstream reconciliation, normal-hook main integration and actual exact-source CI/generated qualification remain ahead. Public Pages behavior retains its existing conditional request and latest-default race limitation; deployment and live desktop/mobile, search and download acceptance remain unproved for this candidate. No delivery, installed host artifact, new production-module coverage or native acceptance is claimed.
+
 ## 2026-11-06 — Issue 233 avoid duplicate source Pages requests
 
 The final Pages request now runs for a bot-generated output commit or a deliberate

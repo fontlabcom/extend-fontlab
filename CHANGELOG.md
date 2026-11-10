@@ -2,6 +2,13 @@
 this_file: CHANGELOG.md
 ---
 
+## 2026-11-10 — Qualify immutable docs output locally
+
+- Require the declared output at HEAD, an exact sole source parent for a nonempty docs-only generated child, and the source commit's build epoch. Check parity against HEAD and include ignored untracked docs files.
+- Preserve the existing publisher, race guards, builders, action pins and conditional public Pages request. Eight intended old-guard assertion failures here now become rejections within the same ten scenarios: two valid states pass and eight invalid states fail, with fixture preservation verified.
+- The locked 31-distribution environment passed all 37 unrestricted docs tests, Ruff on the changed test module and actionlint. Strict building preserved all 50 generated files. The explicit `check=False` fixture correction preserves expected adverse results.
+- Independent combined review, graph analysis, normal main delivery, actual CI/generated qualification, deployment and live verification remain separate. Existing theme, search, download and publication acceptance tasks stay open.
+
 ## 2026-11-06 — Issue 233 avoid duplicate source Pages requests
 
 The final Pages request now runs for a bot-generated output commit or a deliberate

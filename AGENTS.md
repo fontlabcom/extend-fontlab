@@ -57,3 +57,7 @@ HTML after overlays; a source-only change is not proof of a live deployment.
 Do not commit unrelated local edits or hand-edit generated CSS as the source fix.
 Work directly unless the current user explicitly requests delegation.
 <!-- shared-theme-integration:end -->
+
+## Integration rounds
+
+After each important round, independently verify the result, refresh the actual upstream main (or existing default branch), and reconcile concurrent team work in an isolated successor. Integrate qualified changes upstream through normal gates without force-pushing. Move only verified solved TODO items to cumulative CHANGELOG, update PLAN for remaining work, and continue the authorized backlog. Existing preservation rules, exclusions, pauses, native/install restrictions, private P/L holds and capability gates remain in force.

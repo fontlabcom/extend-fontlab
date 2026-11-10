@@ -103,3 +103,7 @@ The strict site build and all 35 documentation tests pass. The complete new hook
 
 The public site still requires reviewed source integration, actual hosted Actions, exact generated output and publication/browser qualification.
 No product release or installation is claimed. Prior ordinary artifacts remain bound to their recorded revisions; a later Git revision changes genuine hatch-vcs metadata. Full current source archives include these documentation additions; no unchanged-sdist or whole-wheel identity is asserted. Native acceptance and owner installation remain separate.
+
+## 2026-11-10 — integration-round guidance
+
+Added the owner’s round-by-round review, upstream reconciliation and backlog-maintenance rule to AGENTS. This is documentation-only preparation; independent review and applicable repository checks remain required before delivery. No runtime, installation, native or publication acceptance is asserted.

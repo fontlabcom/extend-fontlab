@@ -107,6 +107,11 @@ recorded in the root CHANGELOG and retained verification reports.
 
 # Changelog
 
+## 2026-11-10 — Issue 250 documentation round
+
+- AGENTS.md describes the delegation, integration and release workflow.
+- WORK.md reset to the current round; the earlier bytes are archived on the owner's workspace data volume, not public.
+
 ## 2026-09-23
 
 - Migrated the website from Jekyll to ProperDocs and MaterialX.

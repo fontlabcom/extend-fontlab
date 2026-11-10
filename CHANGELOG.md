@@ -2,6 +2,10 @@
 this_file: CHANGELOG.md
 ---
 
+## 2026-11-10 — live font editing rule (Issue 250, D44)
+
+- AGENTS.md: agents test and edit the font open in FontLab 9, starting from the Desktop VFJs, and may save them.
+
 ## 2026-11-10 — Qualification repair integrated; live-byte gate retained
 
 - [Code b793dfe](https://github.com/fontlabcom/extend-fontlab/commit/b793dfe8147b399e5197b531a2176d147e2c8177) is independently accepted at six-path source/main/recovery scope. Both [Documentation jobs](https://github.com/fontlabcom/extend-fontlab/actions/runs/42829099020) pass 37 tests, source epoch and immutable parity.

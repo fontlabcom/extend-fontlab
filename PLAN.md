@@ -7,7 +7,7 @@ this_file: PLAN.md
 The website catalogue for FontLab extensions, scripts, plugins and templates.
 
 1. Retain THEME.md ownership rules and verify generated desktop/mobile routes, search and downloads before publication.
-2. Compare public paths and downloadable asset hashes after any rebuild; record deployment and actual live verification separately.
+2. Resolve the Cloudflare rewriting of live pages (Rocket Loader, Web Analytics beacon) or accept it, then rerun the live parity check (`EXTEND_FONTLAB_LIVE=1`, `tests_docs/test_live_parity.py`) after each rebuild; record deployment and live verification separately.
 
 Python 3.12+ and uv are required. The project pins ProperDocs 1.6.7 and MaterialX 10.1.5. A separately authorized isolated build uses `bash build.sh`; it writes docs/ and docs/.nojekyll. This is a build, not a runtime test or proof of a live site. The docs boundary suite runs with `uv run python -B -m unittest discover -s tests_docs -v`.
 

@@ -4,7 +4,7 @@ this_file: CHANGELOG.md
 
 ## 2026-11-11 — Live parity check for public routes and download (Issue 250)
 
-- Add `tests_docs/live_parity.py` and `tests_docs/test_live_parity.py`. `compare_live` fetches the 5 pinned routes and the jsDelivr download through an injected fetcher and reports status, sha256 against docs/ or download/, unpinned generated routes and fetch failures. Eight synthetic tests run offline; the live test runs only with `EXTEND_FONTLAB_LIVE=1`.
+- Add `tests_docs/live_parity.py` and `tests_docs/test_live_parity.py`. `compare_live` fetches the 5 pinned routes and the jsDelivr download through an injected fetcher and reports status, sha256 against docs/ or download/, unpinned generated routes and fetch failures. Ten offline tests (fake fetcher, patched urlopen for the HTTPError and retry paths); the live test runs only with `EXTEND_FONTLAB_LIVE=1`.
 - First live run (WORK.md): the download matches; all 5 pages differ because Cloudflare Rocket Loader and Web Analytics inject scripts. docs/ is unchanged and the live half stays open.
 
 ## 2026-11-10 — live font editing rule (Issue 250, D44)

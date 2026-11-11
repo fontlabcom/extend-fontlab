@@ -5,12 +5,17 @@ The synthetic tests inject a fake fetcher and never touch the network. The
 live check runs only when EXTEND_FONTLAB_LIVE=1; record its output in WORK.md
 as a separate deployment record (TODO.md row on public paths and hashes).
 """
+import email.message
 import hashlib
+import io
 import os
 import tempfile
 import unittest
+import urllib.error
 from pathlib import Path
+from unittest import mock
 
+import live_parity
 from live_parity import DOWNLOADS, compare_live, url_fetch
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -115,6 +120,28 @@ class LiveParityTests(unittest.TestCase):
     def test_url_fetch_when_scheme_not_https_then_rejected(self):
         with self.assertRaises(ValueError):
             url_fetch('file:///etc/hosts')
+
+    def test_url_fetch_when_http_error_then_status_returned_without_retry(self):
+        calls = []
+
+        def raise_404(request, timeout):
+            calls.append((request.full_url, request.get_header('User-agent'), timeout))
+            raise urllib.error.HTTPError(request.full_url, 404, 'Not Found', email.message.Message(), io.BytesIO(b'gone'))
+
+        with mock.patch.object(live_parity.urllib.request, 'urlopen', raise_404):
+            self.assertEqual(url_fetch('https://example.invalid/a/'), (404, b'gone'))
+        self.assertEqual(calls, [('https://example.invalid/a/', live_parity.USER_AGENT, live_parity.TIMEOUT_S)])
+
+    def test_url_fetch_when_connection_fails_twice_then_raises_after_one_retry(self):
+        calls = []
+
+        def refuse(request, timeout):
+            calls.append(request.full_url)
+            raise urllib.error.URLError('refused')
+
+        with mock.patch.object(live_parity.urllib.request, 'urlopen', refuse), mock.patch.object(live_parity.time, 'sleep'), self.assertRaises(urllib.error.URLError):
+            url_fetch('https://example.invalid/')
+        self.assertEqual(len(calls), 2)
 
     def test_pinned_downloads_match_site_pages(self):
         self.assertEqual(sorted(DOWNLOADS), ['download/fontlab-8/fixes/fix_fontlab_8_for_macos_10_13.vfpy'])

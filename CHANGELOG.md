@@ -2,6 +2,10 @@
 this_file: CHANGELOG.md
 ---
 
+## 2026-11-11 — https-only redirects for the live parity fetcher (Issue 250)
+
+- `url_fetch` now opens URLs through an opener whose `HttpsOnlyRedirect` handler raises `InsecureRedirect` when a redirect leaves https. `url_fetch` raises that error without retrying. Three new offline tests: the handler refuses an http target and follows an https one, the opener carries the handler, and `url_fetch` does not retry a refused redirect. The existing HTTPError and retry tests now patch `open_url`.
+
 ## 2026-11-11 — Live parity check for public routes and download (Issue 250)
 
 - Add `tests_docs/live_parity.py` and `tests_docs/test_live_parity.py`. `compare_live` fetches the 5 pinned routes and the jsDelivr download through an injected fetcher and reports status, sha256 against docs/ or download/, unpinned generated routes and fetch failures. Ten offline tests (fake fetcher, patched urlopen for the HTTPError and retry paths); the live test runs only with `EXTEND_FONTLAB_LIVE=1`.

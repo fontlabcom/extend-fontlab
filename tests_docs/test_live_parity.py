@@ -7,6 +7,7 @@ as a separate deployment record (TODO.md row on public paths and hashes).
 """
 import email.message
 import hashlib
+import http.client
 import io
 import os
 import tempfile
@@ -128,7 +129,7 @@ class LiveParityTests(unittest.TestCase):
             calls.append((request.full_url, request.get_header('User-agent'), timeout))
             raise urllib.error.HTTPError(request.full_url, 404, 'Not Found', email.message.Message(), io.BytesIO(b'gone'))
 
-        with mock.patch.object(live_parity.urllib.request, 'urlopen', raise_404):
+        with mock.patch.object(live_parity, 'open_url', raise_404):
             self.assertEqual(url_fetch('https://example.invalid/a/'), (404, b'gone'))
         self.assertEqual(calls, [('https://example.invalid/a/', live_parity.USER_AGENT, live_parity.TIMEOUT_S)])
 
@@ -139,9 +140,34 @@ class LiveParityTests(unittest.TestCase):
             calls.append(request.full_url)
             raise urllib.error.URLError('refused')
 
-        with mock.patch.object(live_parity.urllib.request, 'urlopen', refuse), mock.patch.object(live_parity.time, 'sleep'), self.assertRaises(urllib.error.URLError):
+        with mock.patch.object(live_parity, 'open_url', refuse), mock.patch.object(live_parity.time, 'sleep'), self.assertRaises(urllib.error.URLError):
             url_fetch('https://example.invalid/')
         self.assertEqual(len(calls), 2)
+
+    def test_redirect_handler_when_target_leaves_https_then_refused(self):
+        handler = live_parity.HttpsOnlyRedirect()
+        request = live_parity.urllib.request.Request('https://example.invalid/a/')
+        headers = http.client.HTTPMessage()
+        with self.assertRaises(live_parity.InsecureRedirect):
+            handler.redirect_request(request, io.BytesIO(), 302, 'Found', headers, 'http://example.invalid/a/')
+        followed = handler.redirect_request(request, io.BytesIO(), 302, 'Found', headers, 'https://example.invalid/b/')
+        assert followed is not None
+        self.assertEqual(followed.full_url, 'https://example.invalid/b/')
+
+    def test_opener_when_built_then_uses_https_only_redirects(self):
+        handlers = vars(live_parity._OPENER)['handlers']
+        self.assertTrue(any(isinstance(h, live_parity.HttpsOnlyRedirect) for h in handlers))
+
+    def test_url_fetch_when_redirect_insecure_then_raises_without_retry(self):
+        calls = []
+
+        def downgrade(request, timeout):
+            calls.append(request.full_url)
+            raise live_parity.InsecureRedirect('refusing redirect')
+
+        with mock.patch.object(live_parity, 'open_url', downgrade), mock.patch.object(live_parity.time, 'sleep'), self.assertRaises(live_parity.InsecureRedirect):
+            url_fetch('https://example.invalid/')
+        self.assertEqual(len(calls), 1)
 
     def test_pinned_downloads_match_site_pages(self):
         self.assertEqual(sorted(DOWNLOADS), ['download/fontlab-8/fixes/fix_fontlab_8_for_macos_10_13.vfpy'])

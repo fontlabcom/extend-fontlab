@@ -3,7 +3,8 @@
 
 Used by tests_docs/test_live_parity.py. `compare_live` takes an injected
 fetcher, so tests run offline; `url_fetch` is the stdlib live fetcher (plain
-GET, generic User-Agent, no cookies or credentials, one retry at most).
+GET, generic User-Agent, no cookies or credentials, one retry at most, and
+redirects are followed only while they stay on https).
 Differences are reported as findings; nothing is rewritten to match.
 """
 import hashlib
@@ -23,6 +24,27 @@ ATTEMPTS = 2
 NOT_ROUTES = {'404.html'}
 
 
+class InsecureRedirect(urllib.error.URLError):
+    """A redirect tried to leave https; url_fetch raises it without retrying."""
+
+
+class HttpsOnlyRedirect(urllib.request.HTTPRedirectHandler):
+    """Follow redirects only to https URLs."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if not newurl.startswith('https://'):
+            raise InsecureRedirect(f'refusing redirect from {req.full_url} to {newurl}')
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+_OPENER = urllib.request.build_opener(HttpsOnlyRedirect)
+
+
+def open_url(request, timeout):
+    """Open a request through the https-only redirect opener."""
+    return _OPENER.open(request, timeout=timeout)
+
+
 def url_fetch(url):
     """GET an https URL; return (status, body). HTTP errors return their status."""
     if not url.startswith('https://'):
@@ -30,10 +52,12 @@ def url_fetch(url):
     request = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
     for attempt in range(ATTEMPTS):
         try:
-            with urllib.request.urlopen(request, timeout=TIMEOUT_S) as response:
+            with open_url(request, TIMEOUT_S) as response:
                 return response.status, response.read()
         except urllib.error.HTTPError as error:
             return error.code, error.read()
+        except InsecureRedirect:
+            raise
         except OSError:
             if attempt == ATTEMPTS - 1:
                 raise

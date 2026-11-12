@@ -4,6 +4,19 @@ this_file: AGENTS.md
 
 # extend-fontlab: agent guide
 
+## Live font testing in FontLab (owner instruction, 2026-11-10)
+
+Test, verify and edit in the font that is open in FontLab 9. Don't hold back
+because the owner might be working on it. Just work in it. If no font is open,
+open a VFJ from `~/Desktop` first (File > Open, or `fontlab.flPackage(path)`
+and `flWorkspace.instance().addPackage`). Those VFJs are for agents. Add glyphs,
+kerning pairs, elements, contours, masters or anything else the test needs,
+and save the files when that helps. This replaces older rules that required an
+empty FontLab session or forbade editing open fonts. `fl-native.sh --mutating`
+now runs with fonts open (`FL_REQUIRE_EMPTY=1` restores the old check). The
+serialized lock still applies: one native run at a time. Don't quit or restart
+FontLab, and don't close fonts from Python, because that has crashed the host.
+
 The website catalogue for FontLab extensions, scripts, plugins and templates.
 
 Edit Markdown in `src_docs/md/` and configuration in `src_docs/mkdocs.yml`. `docs/` is generated output; `download/` contains downloads. Read THEME.md for shared theme ownership.

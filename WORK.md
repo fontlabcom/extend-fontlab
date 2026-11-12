@@ -2,9 +2,11 @@
 this_file: WORK.md
 ---
 
-# Work in progress
+# Work in progress (2026-11-12, D46 status note)
 
-Earlier WORK.md (11,695 bytes, SHA256 `5019b2897329d626bcede07c39843511cf9c4ef5fe1c0a7571d0cfa4a4d2eff2`) is archived on the owner's workspace data volume (not public) under `issue250/work-archives/` (Issue 250). Completed work is in CHANGELOG.md; open work is in TODO.md and PLAN.md.
+- State: main `a42086e`; Documentation CI success on `564df25`, pages deployment success on `a42086e`. Live parity check (`c1519e5`, https-only redirects `95869b7`) is on main.
+- Open: decide Cloudflare Rocket Loader / Web Analytics for extend.fontlab.com, then rerun the live parity check (TODO).
+- Earlier WORK.md (1,546 bytes, SHA256 `1603205a36023b0ac4c47b54ab0ecf3f3c537dbb30b7e0a7b39bdc9d4686df72`) is archived on the owner's workspace data volume (not public) under `issue250/review/d46-work-archive/`; the first archive is under `issue250/work-archives/`. The latest parity table follows unchanged.
 
 ## Live parity check, 2026-11-11T22:44:16Z (source main 4cb4e46, docs from edbedd8)
 

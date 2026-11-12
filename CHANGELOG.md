@@ -2,6 +2,11 @@
 this_file: CHANGELOG.md
 ---
 
+## 2026-11-12 — D46 documentation pass
+
+- State at `a42086e`: the https-only redirect refusal (`95869b7`) and the live parity check (`c1519e5`, `632b65b`) above are on main; Documentation CI success on `564df25`, pages build and deployment success on `a42086e`.
+- Licence inventory (workspace, Apache-2.0 question): LICENSE is Apache text, no pyproject licence field; optional field recorded as TODO. Live-vs-committed byte differences (Cloudflare) stay open in TODO. No code change.
+
 ## 2026-11-11 — https-only redirects for the live parity fetcher (Issue 250)
 
 - `url_fetch` now opens URLs through an opener whose `HttpsOnlyRedirect` handler raises `InsecureRedirect` when a redirect leaves https. `url_fetch` raises that error without retrying. Three new offline tests: the handler refuses an http target and follows an https one, the opener carries the handler, and `url_fetch` does not retry a refused redirect. The existing HTTPError and retry tests now patch `open_url`.

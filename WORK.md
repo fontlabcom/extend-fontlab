@@ -4,6 +4,12 @@ this_file: WORK.md
 
 # Work in progress (2026-11-12, D46 status note)
 
+## 2026-11-14 — Functional work order documented
+
+Updated AGENTS, PLAN and TODO to prioritize useful functional changes and compatible package boundaries, with detailed testing deferred. Existing backlog and prior records are retained. Documentation preservation and policy consistency were checked; no runtime, installed or native checks ran in this documentation-only pass.
+
+Next: check affected catalogue routes and download targets against maintained package names; defer the full browser and live-byte pass while retaining the Cloudflare decision.
+
 - State: main `a42086e`; Documentation CI success on `564df25`, pages deployment success on `a42086e`. Live parity check (`c1519e5`, https-only redirects `95869b7`) is on main.
 - Open: decide Cloudflare Rocket Loader / Web Analytics for extend.fontlab.com, then rerun the live parity check (TODO).
 - Earlier WORK.md (1,546 bytes, SHA256 `1603205a36023b0ac4c47b54ab0ecf3f3c537dbb30b7e0a7b39bdc9d4686df72`) is archived on the owner's workspace data volume (not public) under `issue250/review/d46-work-archive/`; the first archive is under `issue250/work-archives/`. The latest parity table follows unchanged.

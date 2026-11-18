@@ -2,6 +2,11 @@
 this_file: CHANGELOG.md
 ---
 
+## 2026-11-14 — Functional work order documented
+
+- Added the owner's functional-progress-first guidance and repository-specific priorities, including cross-package compatibility and a later detailed testing pass. Existing mandatory hooks, holds and unfinished work remain in force.
+- This change updates guidance and planning only; it establishes no new runtime, installed, native or release result.
+
 ## 2026-11-12 — D46 documentation pass
 
 - State at `a42086e`: the https-only redirect refusal (`95869b7`) and the live parity check (`c1519e5`, `632b65b`) above are on main; Documentation CI success on `564df25`, pages build and deployment success on `a42086e`.

@@ -4,6 +4,8 @@ this_file: TODO.md
 
 # extend-fontlab: pending work
 
+- [ ] Check affected catalogue routes and download targets against maintained package names; defer the full browser and live-byte pass while retaining the Cloudflare decision.
+
 - [ ] Retain THEME.md ownership rules and verify generated desktop/mobile routes, search and downloads before publication.
 - [ ] Live page bytes differ from docs/: Cloudflare Rocket Loader and the Web Analytics beacon rewrite all 5 pages (download matches). Decide whether to turn both off for extend.fontlab.com or accept the injection, then rerun `EXTEND_FONTLAB_LIVE=1` `tests_docs/test_live_parity.py` to zero findings after each rebuild.
 
